@@ -1,0 +1,35 @@
+
+usquid:S00117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ñöùÿÿÿÿ8¥³±½Œ-
+fsquid:UnusedPrivateMethod¬"4Remove this unused private "getRequestReply" method.(ê‡ÖÛüÿÿÿÿ8¥³±½Œ-
+psquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ßÑ8¥³±½Œ-
+\squid:UselessImportCheck"8Remove this unused import 'javax.naming.InitialContext'.(Àÿ£ø
+Usquid:UselessImportCheck"1Remove this unused import 'javax.naming.Context'.(¯‘—³
+qsquid:UselessImportCheck"MRemove this unused import 'com.sun.xml.internal.ws.resources.SenderMessages'.(¾Ì©Œ
+Lsquid:S1604¸"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ8¥³±½Œ-
+W
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(«‹ 8Ô‰ÍèŒ-
+Lsquid:S1604Ä"(Make this anonymous inner class a lambda(éáá«øÿÿÿÿ8®½çŒ-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼éİù8¥³±½Œ-
+usquid:S00117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıœçÈûÿÿÿÿ8¥³±½Œ-
+Gsquid:S1148İ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8®½çŒ-
+hsquid:UselessImportCheck "=Remove this unused import 'mix.model.bank.BankInterestReply'.(·”–‚8¥Ó€èŒ-
+osquid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì·-8¥³±½Œ-
+|squid:S00116/"XRename this field "lblNewLabel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â®­œÿÿÿÿÿ8Å¼°½Œ-
+Ysquid:S1141Á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8®½çŒ-
+esquid:MaximumInheritanceDepth$"<This class has 6 parents which is greater than 5 authorized.(ÜÖ¤ª
+vsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¥³±½Œ-
+wsquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(½àş8¥³±½Œ-
+usquid:S00117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú ê–ûÿÿÿÿ8¥³±½Œ-
+Gsquid:S1148æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¥³±½Œ-
+Lsquid:S1191"5Use classes from the Java API instead of Sun classes.(¾Ì©Œ
+}squid:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(´¤¸üÿÿÿÿ8¥³±½Œ-
+psquid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍıÛó8¥³±½Œ-
+jsquid:UselessImportCheck!"?Remove this unused import 'mix.model.bank.BankInterestRequest'.(øƒÜ8”‘€èŒ-
+Gsquid:S1148ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8®½çŒ-
+usquid:S00117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ×ûòÿÿÿÿÿ8¥³±½Œ-
+\
+squid:S106Ø"9Replace this use of System.out or System.err by a logger.(’±Ëˆûÿÿÿÿ8Ğ›ÙèŒ-
+qsquid:S3776·"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8Ğ›ÙèŒ-
+Gsquid:S1604‚"(Make this anonymous inner class a lambda(Î¶8¥³±½Œ-
+bsquid:UselessImportCheck"9Remove this unused import 'javax.naming.NamingException'.(‹ùæêüÿÿÿÿ
+Qsquid:S3010Ÿ"-Remove this assignment of "requestReplyList".(´¤¸üÿÿÿÿ8±ıÖèŒ-

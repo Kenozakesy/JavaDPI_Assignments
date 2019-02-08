@@ -1,0 +1,25 @@
+
+Fsquid:S1148r"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
+psquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8Œ²«çŒ-
+[
+squid:S106k"9Replace this use of System.out or System.err by a logger.(Š¦÷şüÿÿÿÿ8¾ˆûçŒ-
+Xsquid:S1141;"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8×®¯áŒ-
+Xsquid:S1141S"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ŸÖ¯áŒ-
+Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×®¯áŒ-
+Dsquid:S1604*"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
+Fsquid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(±ë“Ôüÿÿÿÿ
+V
+squid:S106B"9Replace this use of System.out or System.err by a logger.(†•À’8×®¯áŒ-
+ssquid:S1192."VDefine a constant instead of duplicating this literal "tcp://localhost:61616" 4 times.(È…Án8ŞÌáŒ-
+vsquid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıœçÈûÿÿÿÿ8¬ÖÏçŒ-
+Ksquid:S3010“"'Remove this assignment of "scrollPane".(øÒò«şÿÿÿÿ8¬ÖÏçŒ-
+nsquid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(×¸‘şÿÿÿÿ8öº¾æŒ-
+Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
+[
+squid:S106o"9Replace this use of System.out or System.err by a logger.(Ğ©¼÷ıÿÿÿÿ8í•ãçŒ-
+Ksquid:S1604>"(Make this anonymous inner class a lambda(şå€ûÿÿÿÿ8×®¯áŒ-
+Fsquid:S1148N"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×®¯áŒ-
+gsquid:UselessImportCheck">Remove this unused import 'com.google.gson.stream.JsonReader'.(ËÓÌ—üÿÿÿÿ
+vsquid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¬ÖÏçŒ-
+Ksquid:S1604V"(Make this anonymous inner class a lambda(“™ğâûÿÿÿÿ8ŸÖ¯áŒ-
