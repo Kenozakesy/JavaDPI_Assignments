@@ -6,11 +6,7 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
 
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -22,15 +18,12 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.jms.*;
 
-
+import applicationforms.loanclient.loanclient.Gateway.LoanBrokerAppGateway;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.sun.xml.internal.ws.resources.SenderMessages;
 import mix.Messages;
 import mix.ReceiveMessages;
 import mix.messaging.requestreply.RequestReply;
-import mix.model.bank.BankInterestReply;
-import mix.model.bank.BankInterestRequest;
 import mix.model.loan.*;
 
 public class LoanClientFrame extends JFrame {
@@ -39,13 +32,16 @@ public class LoanClientFrame extends JFrame {
 	 * 
 	 */
 
-	//UI
+	//region UI
 	private JPanel contentPane;
 	private JTextField tfSSN;
 	private JTextField tfAmount;
 	private JLabel lblNewLabel;
 	private JLabel lblNewLabel_1;
 	private JTextField tfTime;
+	//endregion
+
+	private LoanBrokerAppGateway loanBrokerGateway;
 
 	//usefull stuff
 	private static final long serialVersionUID = 1L;
@@ -125,7 +121,8 @@ public class LoanClientFrame extends JFrame {
 		tfTime.setColumns(10);
 
 		//endregion
-		
+
+		//This is the button
 		JButton btnQueue = new JButton("send loan request");
 		btnQueue.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
