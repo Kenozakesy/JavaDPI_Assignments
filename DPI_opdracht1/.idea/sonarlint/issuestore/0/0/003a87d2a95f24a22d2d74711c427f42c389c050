@@ -1,13 +1,13 @@
 
 [
 squid:S106%"9Replace this use of System.out or System.err by a logger.(–É‹éùÿÿÿÿ8©‡ÍæŒ-
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(’ËÎ¼şÿÿÿÿ8¿‚æŒ-
 ƒ"squid:ClassVariableVisibilityCheck"PMake list a static final constant or non-public and provide accessors if needed.(ÀËŞÑıÿÿÿÿ
-Lsquid:EmptyStatementUsageCheck:"Remove this empty statement.(—¿ä8ÔˆüäŒ-
-_squid:UselessImportCheck";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ¿˜úÿÿÿÿ
-tsquid:UselessImportCheck"DRemove this unused import 'mix.messaging.requestreply.RequestReply'.(›Œ…ôşÿÿÿÿ8¥¡åŒ-
 _squid:UnusedPrivateMethod"4Remove this unused private "getRequestReply" method.(İ¥&8íñæŒ-
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ¿˜úÿÿÿÿ
+Lsquid:EmptyStatementUsageCheck:"Remove this empty statement.(—¿ä8ÔˆüäŒ-
+tsquid:UselessImportCheck"DRemove this unused import 'mix.messaging.requestreply.RequestReply'.(›Œ…ôşÿÿÿÿ8¥¡åŒ-
+_squid:UselessImportCheck";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ó”Ó¶ıÿÿÿÿ
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ë’îüÿÿÿÿ8øíâæŒ-
-nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(’ËÎ¼şÿÿÿÿ8¿‚æŒ-
