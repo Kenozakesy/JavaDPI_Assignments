@@ -39,8 +39,8 @@ public class LoanClientFrame extends JFrame {
 	private JTextField tfTime;
 	//endregion
 
-	//Maintains the JMS connection
-	private LoanBrokerAppGateway loanBrokerGateway;
+
+
 
 	//usefull stuff
 	private static final long serialVersionUID = 1L;
@@ -49,6 +49,7 @@ public class LoanClientFrame extends JFrame {
 
 	//creates a new gateway
 	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway();
+
 
 	/**
 	 * Create the frame.
@@ -160,22 +161,7 @@ public class LoanClientFrame extends JFrame {
        
 	}
 	
-	/**
-	 * This method returns the RequestReply line that belongs to the request from requestReplyList (JList). 
-	 * You can call this method when an reply arrives in order to add this reply to the right request in requestReplyList.
-	 * @param request
-	 * @return
-	 */
-   private RequestReply<LoanRequest,LoanReply> getRequestReply(LoanRequest request){    
-     
-     for (int i = 0; i < listModel.getSize(); i++){
-    	 RequestReply<LoanRequest,LoanReply> rr = listModel.get(i);
-    	 if (rr.getRequest() == request){
-    		 return rr;
-    	 }
-     }
-     return null;
-   }
+
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -183,6 +169,7 @@ public class LoanClientFrame extends JFrame {
 				try {
 					LoanClientFrame frame = new LoanClientFrame();
 					frame.setVisible(true);
+
 
 					ReceiveMessages receiveMessagesFromBroker = new ReceiveMessages("tcp://localhost:61616", false, "LoanReply");
 
@@ -209,10 +196,7 @@ public class LoanClientFrame extends JFrame {
 											}
 										}
 										requestReplyList.repaint();
-										System.out.println("Succesfull execution");
-										//endregion
 
-										System.out.println("sending has been succesfull");
 									} catch (JMSException e) {
 										e.printStackTrace();
 									}

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8185327-7088-4878-b2f4-b5df5c88b912" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/BankAppGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/LoanBrokerAppGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/LoanSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/Recievers/MessageRecieverGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageRecieverGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/Recievers/MessageSenderGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageSenderGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,8 +40,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="227" column="13" selection-start-line="180" selection-start-column="8" selection-end-line="227" selection-end-column="13" />
+            <state relative-caret-position="-103">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="577">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -75,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageSenderGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="221">
               <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageRecieverGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="850">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,13 +173,14 @@
         <option value="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/Recievers/MessageRecieverGateway.java" />
         <option value="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Gateway/Recievers/MessageSenderGateway.java" />
         <option value="$PROJECT_DIR$/src/applicationforms/Recievers/MessageSenderGateway.java" />
-        <option value="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java" />
         <option value="$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageSenderGateway.java" />
         <option value="$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageRecieverGateway.java" />
         <option value="$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java" />
         <option value="$PROJECT_DIR$/src/mix/ChainCode/Gateways/LoanBrokerAppGateway.java" />
         <option value="$PROJECT_DIR$/src/mix/ChainCode/Gateways/BankAppGateway.java" />
+        <option value="$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java" />
         <option value="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java" />
+        <option value="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java" />
       </list>
     </option>
   </component>
@@ -237,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +308,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,11 +758,13 @@
       <workItem from="1549976624382" duration="7000" />
       <workItem from="1549977321887" duration="8292000" />
       <workItem from="1549985662404" duration="2099000" />
+      <workItem from="1549993186740" duration="3042000" />
+      <workItem from="1549996501180" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35068000" />
+    <option name="totallyTimeSpent" value="38842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,7 +779,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -791,7 +790,7 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.21235102" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.21235102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39222616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -920,10 +919,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/BankAppGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageSenderGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mix/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="43" selection-start-line="43" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageRecieverGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,59 +982,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="227" column="13" selection-start-line="180" selection-start-column="8" selection-end-line="227" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="-103">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageRecieverGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mix/ChainCode/Recievers/MessageSenderGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/BankAppGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="577">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
