@@ -18,10 +18,8 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.jms.*;
 
-import applicationforms.loanclient.loanclient.Gateway.LoanBrokerAppGateway;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import mix.Messages;
 import mix.ReceiveMessages;
 import mix.messaging.requestreply.RequestReply;
 import mix.model.loan.*;
@@ -41,13 +39,16 @@ public class LoanClientFrame extends JFrame {
 	private JTextField tfTime;
 	//endregion
 
+	//Maintains the JMS connection
 	private LoanBrokerAppGateway loanBrokerGateway;
 
 	//usefull stuff
 	private static final long serialVersionUID = 1L;
 	private static DefaultListModel<RequestReply<LoanRequest,LoanReply>> listModel = new DefaultListModel<RequestReply<LoanRequest,LoanReply>>(); //voeg toe aan list model en repaint de andere
 	private static JList<RequestReply<LoanRequest,LoanReply>> requestReplyList;
-	private static Messages client;
+
+	//creates a new gateway
+	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway();
 
 	/**
 	 * Create the frame.
@@ -132,8 +133,7 @@ public class LoanClientFrame extends JFrame {
 
 				LoanRequest request = new LoanRequest(ssn,amount,time);
 				listModel.addElement( new RequestReply<LoanRequest,LoanReply>(request, null));
-                String object = new Gson().toJson(request);
-				client.SendMessage(object);
+				gateway.applyForLoan(request);
             }
 		});
 
@@ -181,7 +181,6 @@ public class LoanClientFrame extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-                    client = new Messages("tcp://localhost:61616", false, "LoanRequest");
 					LoanClientFrame frame = new LoanClientFrame();
 					frame.setVisible(true);
 
