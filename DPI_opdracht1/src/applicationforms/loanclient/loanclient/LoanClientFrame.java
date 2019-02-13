@@ -26,10 +26,6 @@ import mix.model.loan.*;
 
 public class LoanClientFrame extends JFrame {
 
-	/**
-	 * 
-	 */
-
 	//region UI
 	private JPanel contentPane;
 	private JTextField tfSSN;
@@ -39,16 +35,13 @@ public class LoanClientFrame extends JFrame {
 	private JTextField tfTime;
 	//endregion
 
-
-
-
 	//usefull stuff
 	private static final long serialVersionUID = 1L;
-	private static DefaultListModel<RequestReply<LoanRequest,LoanReply>> listModel = new DefaultListModel<RequestReply<LoanRequest,LoanReply>>(); //voeg toe aan list model en repaint de andere
-	private static JList<RequestReply<LoanRequest,LoanReply>> requestReplyList;
+	public static DefaultListModel<RequestReply<LoanRequest,LoanReply>> listModel = new DefaultListModel<RequestReply<LoanRequest,LoanReply>>(); //voeg toe aan list model en repaint de andere
+	public static JList<RequestReply<LoanRequest,LoanReply>> requestReplyList;
 
 	//creates a new gateway
-	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway();
+	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway(this);
 
 
 	/**
@@ -133,7 +126,7 @@ public class LoanClientFrame extends JFrame {
 				int time = Integer.parseInt(tfTime.getText());
 
 				LoanRequest request = new LoanRequest(ssn,amount,time);
-				listModel.addElement( new RequestReply<LoanRequest,LoanReply>(request, null));
+				listModel.addElement(new RequestReply<>(request, null));
 				gateway.applyForLoan(request);
             }
 		});
@@ -160,57 +153,14 @@ public class LoanClientFrame extends JFrame {
 		//endregion
        
 	}
-	
 
-	
+
+
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					LoanClientFrame frame = new LoanClientFrame();
-					frame.setVisible(true);
 
-
-					ReceiveMessages receiveMessagesFromBroker = new ReceiveMessages("tcp://localhost:61616", false, "LoanReply");
-
-					try {
-						if(receiveMessagesFromBroker.consumer != null)
-						{
-							receiveMessagesFromBroker.consumer.setMessageListener(new MessageListener() {
-
-								@Override
-								public void onMessage(Message msg) {
-									try {
-										java.lang.reflect.Type type = new TypeToken<RequestReply<LoanRequest, LoanReply>>(){}.getType();
-										RequestReply<LoanRequest, LoanReply> requestReply = new Gson().fromJson(((TextMessage) msg).getText(), type);
-
-										//region updateUI
-										LoanRequest loanRequest = requestReply.getRequest();
-										LoanReply loanReply = requestReply.getReply();
-
-										for (int i = 0; i < listModel.getSize(); i++){
-											RequestReply<LoanRequest,LoanReply> rr =listModel.get(i);
-											if (rr.getRequest().equals(loanRequest)){
-												rr.setReply(loanReply);
-												break;
-											}
-										}
-										requestReplyList.repaint();
-
-									} catch (JMSException e) {
-										e.printStackTrace();
-									}
-								}
-							});
-						}
-					} catch (JMSException e) {
-						e.printStackTrace();
-					}
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		LoanClientFrame frame = new LoanClientFrame();
+		frame.setVisible(true);
+;
 	}
 
 

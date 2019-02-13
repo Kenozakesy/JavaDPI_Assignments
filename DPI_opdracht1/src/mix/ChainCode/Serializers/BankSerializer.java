@@ -1,6 +1,7 @@
 package mix.ChainCode.Serializers;
 
 import com.google.gson.Gson;
+import mix.messaging.requestreply.RequestReply;
 import mix.model.bank.BankInterestReply;
 import mix.model.bank.BankInterestRequest;
 import mix.model.loan.LoanReply;
@@ -41,6 +42,12 @@ public class BankSerializer {
     {
         BankInterestReply reply = gson.fromJson((str), BankInterestReply.class);
         return reply;
+    }
+
+    public String replyRequestToString(RequestReply<BankInterestRequest, BankInterestReply> requestReply)
+    {
+        String object = gson.toJson(requestReply);
+        return object;
     }
 
 

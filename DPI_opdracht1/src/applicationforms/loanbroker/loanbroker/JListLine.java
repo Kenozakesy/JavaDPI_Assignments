@@ -14,7 +14,7 @@ import mix.model.bank.*;
  * @author 884294
  *
  */
- class JListLine {
+ public class JListLine {
 	
 	private LoanRequest loanRequest;
 	private BankInterestRequest bankRequest;

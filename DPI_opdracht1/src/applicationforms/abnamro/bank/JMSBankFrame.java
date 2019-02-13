@@ -30,53 +30,22 @@ import mix.model.loan.LoanRequest;
 
 public class JMSBankFrame extends JFrame {
 
-	/**
-	 * 
-	 */
+	//region UI
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField tfReply;
-	private static DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>> listModel = new DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>>();
-	private static Messages bankClient;
+	//endregion
+
+	public static DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>> listModel = new DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>>();
+	public JList<RequestReply<BankInterestRequest, BankInterestReply>> list = new JList<>(listModel);
+	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway(this);
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					JMSBankFrame frame = new JMSBankFrame();
-					frame.setVisible(true);
-                    bankClient = new Messages("tcp://localhost:61616", false, "BankInterestReply");
-                    ReceiveMessages receiveMessages = new ReceiveMessages("tcp://localhost:61616", false, "BankInterestRequest");
-
-                    try {
-                        if(receiveMessages.consumer != null)
-                        {
-                            receiveMessages.consumer.setMessageListener(new MessageListener() {
-
-                                @Override
-                                public void onMessage(Message msg) {
-                                    System.out.println("received message: " + msg);
-                                    try {
-                                        BankInterestRequest bankRequest = new Gson().fromJson(((TextMessage) msg).getText(), BankInterestRequest.class);
-                                        listModel.addElement(new RequestReply<BankInterestRequest, BankInterestReply>(bankRequest, null));
-
-                                    } catch (JMSException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                            });
-                        }
-                    } catch (JMSException e) {
-                        e.printStackTrace();
-                    }
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		JMSBankFrame frame = new JMSBankFrame();
+		frame.setVisible(true);
 	}
 
 	/**
@@ -107,7 +76,7 @@ public class JMSBankFrame extends JFrame {
 		gbc_scrollPane.gridy = 0;
 		contentPane.add(scrollPane, gbc_scrollPane);
 		
-		final JList<RequestReply<BankInterestRequest, BankInterestReply>> list = new JList<RequestReply<BankInterestRequest, BankInterestReply>>(listModel);
+
 		scrollPane.setViewportView(list);
 		
 		JLabel lblNewLabel = new JLabel("type reply");
@@ -129,26 +98,21 @@ public class JMSBankFrame extends JFrame {
 		tfReply.setColumns(10);
 
 		//endregion
-		
+
+		//could be more solid
 		JButton btnSendReply = new JButton("send reply");
 		btnSendReply.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//gets selected bankinterest interest request
 				RequestReply<BankInterestRequest, BankInterestReply> rr = list.getSelectedValue();
-
-				//interest
 				double interest = Double.parseDouble((tfReply.getText()));
 				BankInterestReply reply = new BankInterestReply(interest,"ABN AMRO");
 
 				if (rr!= null && reply != null){
 					rr.setReply(reply);
-
 					//UI
 	                list.repaint();
+					gateway.replyToLoan(rr);
 				}
-
-				//send message back to broker
-				bankClient.SendMessage(new Gson().toJson(rr));
 			}
 		});
 

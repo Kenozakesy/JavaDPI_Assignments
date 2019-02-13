@@ -14,6 +14,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
+import applicationforms.loanbroker.Gateways.BankAppGateway;
+import applicationforms.loanbroker.Gateways.LoanClientAppGateway;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
@@ -28,103 +30,36 @@ import mix.model.loan.LoanRequest;
 
 public class LoanBrokerFrame extends JFrame {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
     private static JScrollPane scrollPane;
-	private static Broker broker;
-	private static Messages messangerToBank;
+
+	private BankAppGateway bankGateway = new BankAppGateway(this);
+	private LoanClientAppGateway loanClientGateway = new LoanClientAppGateway(this);
+
+	public static Broker broker;
 	private static Messages messangerToClient;
 	
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					// init new que
-                    messangerToBank = new Messages("tcp://localhost:61616", false, "BankInterestRequest");
-					messangerToClient = new Messages("tcp://localhost:61616", false, "LoanReply");
-                    broker = new Broker();
+		broker = new Broker();
+		LoanBrokerFrame frame = new LoanBrokerFrame();
+		frame.setVisible(true);
+	}
 
-                    //init GUI
-					LoanBrokerFrame frame = new LoanBrokerFrame();
-					frame.setVisible(true);
+	//----->
+	public void passRequestToBank(BankInterestRequest request)
+	{
+		bankGateway.sendBankRequest(request);
+	}
 
-					//init listener
-					ReceiveMessages receiveMessagesFromCustomer = new ReceiveMessages("tcp://localhost:61616", false, "LoanRequest");
-                    ReceiveMessages receiveMessagesFromBanks = new ReceiveMessages("tcp://localhost:61616", false, "BankInterestReply");
+	//<-----
+	public void passReplyToClient(BankInterestRequest request, BankInterestReply reply)
+	{
+		LoanReply loanReply = new LoanReply(reply.getInterest(), reply.getQuoteId());
+		JListLine jlistLine = broker.getRequestReply(request);
+		LoanRequest loanRequest = jlistLine.getLoanRequest();
 
-                    //region consumer_setup
-					try {
-						if(receiveMessagesFromCustomer.consumer != null)
-						{
-							receiveMessagesFromCustomer.consumer.setMessageListener(new MessageListener() {
-
-								@Override
-								public void onMessage(Message msg) {
-									System.out.println("received message: " + msg);
-									try {
-										BankInterestRequest bankInterestRequest = broker.add(new Gson().fromJson(((TextMessage) msg).getText(), LoanRequest.class));
-										//send request to the bank
-										messangerToBank.SendMessage(new Gson().toJson(bankInterestRequest));
-									} catch (JMSException e) {
-										e.printStackTrace();
-									}
-								}
-							});
-						}
-					} catch (JMSException e) {
-						e.printStackTrace();
-					}
-					//endregion
-
-					//region consumer_setup
-					try {
-						if(receiveMessagesFromBanks.consumer != null)
-						{
-							receiveMessagesFromBanks.consumer.setMessageListener(new MessageListener() {
-
-								@Override
-								public void onMessage(Message msg) {
-									//System.out.println("received message: " + msg);
-									try {
-										java.lang.reflect.Type type = new TypeToken<RequestReply<BankInterestRequest, BankInterestReply>>(){}.getType();
-										RequestReply<BankInterestRequest, BankInterestReply> requestReply = new Gson().fromJson(((TextMessage) msg).getText(), type);
-
-										BankInterestRequest bankInterestRequest = requestReply.getRequest();
-										BankInterestReply bankInterestReply = requestReply.getReply();
-
-										//this still has to work
-										broker.add(bankInterestRequest, bankInterestReply);
-
-
-										//send message to client
-										LoanReply loanReply = new LoanReply(bankInterestReply.getInterest(), bankInterestReply.getQuoteId());
-										//getLoanrequest
-										JListLine jlistLine = broker.getRequestReply(bankInterestRequest);
-										LoanRequest loanRequest = jlistLine.getLoanRequest();
-										System.out.println("loan request " + loanRequest.getAmount());
-
-										RequestReply<BankInterestRequest, BankInterestReply> loanRequestReply = new RequestReply(loanRequest, loanReply);
-										messangerToClient.SendMessage(new Gson().toJson(loanRequestReply));
-										System.out.println("message send");
-
-									} catch (JMSException e) {
-										e.printStackTrace();
-									}
-								}
-							});
-						}
-					} catch (JMSException e) {
-						e.printStackTrace();
-					}
-					//endregion
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		loanClientGateway.sendLoanReply(loanRequest, loanReply);
 	}
 
 	/**

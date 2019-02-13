@@ -13,6 +13,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/abnamro/bank/LoanBrokerAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/BankAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/LoanClientAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/Broker.java">
           <value>
             <set />
@@ -28,12 +43,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/LoanClientFrame.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/applicationforms/loanclient/loanclient/Updater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mix/ChainCode/Serializers/BankSerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java">
           <value>
             <set />
           </value>

@@ -21,17 +21,16 @@ public class LoanBrokerAppGateway {
     private MessageSenderGateway sender;
     private LoanSerializer serializer;
 
-    public LoanBrokerAppGateway()
+    private LoanClientFrame frame;
+    //ui aanroepen hier
+
+
+    public LoanBrokerAppGateway(LoanClientFrame frame)
     {
+        this.frame = frame;
         sender = new MessageSenderGateway("LoanRequest");
         receiver = new MessageRecieverGateway("LoanReply");
         serializer = new LoanSerializer();
-    }
-
-    public void applyForLoan(LoanRequest request)
-    {
-        String object = serializer.requestToString(request);
-        Message msg = sender.createTextmessage(object);
 
         MessageListener listener = new MessageListener() {
             @Override
@@ -51,14 +50,25 @@ public class LoanBrokerAppGateway {
             }
         };
         receiver.setListener(listener);
+    }
+
+    public void applyForLoan(LoanRequest request)
+    {
+        String object = serializer.requestToString(request);
+        Message msg = sender.createTextmessage(object);
         sender.sendMessage(msg);
     }
 
     //how the fuck to receive back request and reply and give to GUI
     public void onLoanReplyArrived(LoanRequest request, LoanReply reply)
     {
-        System.out.println(request.getSsn());
-        System.out.println(reply.getInterest());
-        System.out.println("test this");
+        for (int i = 0; i < frame.listModel.getSize(); i++){
+            RequestReply<LoanRequest,LoanReply> rr = frame.listModel.get(i);
+            if (rr.getRequest().equals(request)){
+                rr.setReply(reply);
+                break;
+            }
+        }
+        frame.requestReplyList.repaint();
     }
 }
