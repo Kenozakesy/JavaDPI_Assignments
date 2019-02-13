@@ -39,3 +39,7 @@ t
 Dsrc/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java,0\9\09095a123c89cae7518a58ebf5d25f969893a32d
 k
 ;src/applicationforms/abnamro/bank/LoanBrokerAppGateway.java,0\c\0ce19393dae1485a03a820df095d1b883e866b19
+r
+Bsrc/applicationforms/loanbroker/Gateways/LoanClientAppGateway.java,a\f\afd1bb37685cf8e7d204c63b25b58ee7b6b4350f
+l
+<src/applicationforms/loanbroker/Gateways/BankAppGateway.java,0\2\025e609aa09bf35bec1429834a747a261d003f23

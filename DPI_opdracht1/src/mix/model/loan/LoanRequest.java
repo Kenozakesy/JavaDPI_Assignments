@@ -8,19 +8,19 @@ package mix.model.loan;
  */
 public class LoanRequest {
 
+    private static int staticID = 0;
+    private int id;
     private int ssn; // unique client number.
     private int amount; // the ammount to borrow
     private int time; // the time-span of the loan
 
-    public LoanRequest() {
-        super();
-        this.ssn = 0;
-        this.amount = 0;
-        this.time = 0;
-    }
 
     public LoanRequest(int ssn, int amount, int time) {
         super();
+        if(id == 0)
+        {
+            id = staticID + 1;
+        }
         this.ssn = ssn;
         this.amount = amount;
         this.time = time;
@@ -55,6 +55,7 @@ public class LoanRequest {
         return "ssn=" + String.valueOf(ssn) + " amount=" + String.valueOf(amount) + " time=" + String.valueOf(time);
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -62,6 +63,7 @@ public class LoanRequest {
 
         LoanRequest that = (LoanRequest) o;
 
+        if (id != that.id) return false;
         if (getSsn() != that.getSsn()) return false;
         if (getAmount() != that.getAmount()) return false;
         return getTime() == that.getTime();
@@ -69,7 +71,8 @@ public class LoanRequest {
 
     @Override
     public int hashCode() {
-        int result = getSsn();
+        int result = id;
+        result = 31 * result + getSsn();
         result = 31 * result + getAmount();
         result = 31 * result + getTime();
         return result;

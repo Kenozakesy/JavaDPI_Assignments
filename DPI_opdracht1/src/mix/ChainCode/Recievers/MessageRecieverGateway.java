@@ -8,7 +8,6 @@ import java.util.Properties;
 
 public class MessageRecieverGateway {
 
-
     private Connection connection;
     private Session session;
     private Destination destination;

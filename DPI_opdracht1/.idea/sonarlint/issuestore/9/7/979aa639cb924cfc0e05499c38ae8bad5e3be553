@@ -1,25 +1,21 @@
 
-Xsquid:S1141S"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ŸÖ¯áŒ-
-psquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8Œ²«çŒ-
-vsquid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¬ÖÏçŒ-
-Fsquid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
-[
-squid:S106o"9Replace this use of System.out or System.err by a logger.(Ğ©¼÷ıÿÿÿÿ8í•ãçŒ-
-Dsquid:S1604*"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
-Fsquid:S1148N"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×®¯áŒ-
-Ksquid:S3010“"'Remove this assignment of "scrollPane".(øÒò«şÿÿÿÿ8¬ÖÏçŒ-
-gsquid:UselessImportCheck">Remove this unused import 'com.google.gson.stream.JsonReader'.(ËÓÌ—üÿÿÿÿ
-V
-squid:S106B"9Replace this use of System.out or System.err by a logger.(†•À’8×®¯áŒ-
-Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
-Xsquid:S1141;"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8×®¯áŒ-
-Ksquid:S1604>"(Make this anonymous inner class a lambda(şå€ûÿÿÿÿ8×®¯áŒ-
-Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×®¯áŒ-
-nsquid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(×¸‘şÿÿÿÿ8öº¾æŒ-
-Fsquid:S1148r"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÖÏçŒ-
-vsquid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıœçÈûÿÿÿÿ8¬ÖÏçŒ-
-[
-squid:S106k"9Replace this use of System.out or System.err by a logger.(Š¦÷şüÿÿÿÿ8¾ˆûçŒ-
-Ksquid:S1604V"(Make this anonymous inner class a lambda(“™ğâûÿÿÿÿ8ŸÖ¯áŒ-
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(±ë“Ôüÿÿÿÿ
-ssquid:S1192."VDefine a constant instead of duplicating this literal "tcp://localhost:61616" 4 times.(È…Án8ŞÌáŒ-
+`squid:UselessImportCheck
+"6Remove this unused import 'javax.jms.MessageListener'.(Äıãt8üü°¶-
+usquid:S00117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıœçÈûÿÿÿÿ8¬ÖÏçŒ-
+tsquid:UselessImportCheck"DRemove this unused import 'mix.messaging.requestreply.RequestReply'.(›Œ…ôşÿÿÿÿ8…İ›·-
+^squid:UselessImportCheck	".Remove this unused import 'javax.jms.Message'.(óÓ®¡üÿÿÿÿ8…İ›·-
+gsquid:UselessImportCheck">Remove this unused import 'com.google.gson.stream.JsonReader'.(ËÓÌ—üÿÿÿÿ
+Osquid:S1444(",Make this "public static broker" field final(À³‹¬ıÿÿÿÿ8Ä„»´-
+Jsquid:S3010R"'Remove this assignment of "scrollPane".(øÒò«şÿÿÿÿ8¬ÖÏçŒ-
+^squid:UselessImportCheck"3Remove this unused import 'javax.jms.JMSException'.(ú°’ú8…İ›·-
+\squid:UselessImportCheck"1Remove this unused import 'com.google.gson.Gson'.(–§8…İ›·-
+usquid:S00117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¬ÖÏçŒ-
+Ssquid:S1068)"5Remove this unused "messangerToClient" private field.(àÌ¤â8…İ›·-
+Qsquid:S1948&"3Make "loanClientGateway" transient or serializable.(ß™Üİ8òÌÆ¶-
+nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(İªıñøÿÿÿÿ8…İ›·-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(±ë“Ôüÿÿÿÿ
+Ksquid:S1948%"-Make "bankGateway" transient or serializable.(ÏéÈÎ8¿ä’µ-
+Œ"squid:ClassVariableVisibilityCheck("RMake broker a static final constant or non-public and provide accessors if needed.(À³‹¬ıÿÿÿÿ8Ä„»´-
+]squid:UselessImportCheck"2Remove this unused import 'javax.jms.TextMessage'.(ü¹·Ö8…İ›·-
+[squid:UselessImportCheck"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8üü°¶-
+[squid:UselessImportCheck"0Remove this unused import 'mix.ReceiveMessages'.(ßºøÈ8üü°¶-

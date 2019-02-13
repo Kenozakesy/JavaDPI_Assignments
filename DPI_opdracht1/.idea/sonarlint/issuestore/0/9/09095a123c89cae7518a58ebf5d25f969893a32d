@@ -1,9 +1,6 @@
 
-?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-[
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ñçíŠûÿÿÿÿ8š¿Ñ¯-
-[
-squid:S106@"9Replace this use of System.out or System.err by a logger.(ˆôÙ¹şÿÿÿÿ8š¿Ñ¯-
-[
-squid:S106B"9Replace this use of System.out or System.err by a logger.(ôÓú şÿÿÿÿ8š¿Ñ¯-
-?squid:S1604'"(Make this anonymous inner class a lambda(¾ìñ€
+Ssquid:S2209A"5Change this instance-reference to a static reference.(–‘ĞÕ8ş»¨³-
+Fsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ş»¨³-
+Fsquid:S1604#"(Make this anonymous inner class a lambda(¾ìñ€8ş»¨³-
+Xsquid:S2209H"5Change this instance-reference to a static reference.(¿ğ¬ûÿÿÿÿ8ş»¨³-
+Ssquid:S2209B"5Change this instance-reference to a static reference.(¦Ä‡ú8ş»¨³-
