@@ -14,6 +14,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 import javax.swing.*;
+import java.util.UUID;
 
 public class LoanBrokerAppGateway {
 
@@ -56,6 +57,13 @@ public class LoanBrokerAppGateway {
     {
         String object = serializer.requestToString(request);
         Message msg = sender.createTextmessage(object);
+
+//        try {
+//            msg.setIntProperty("AggredationID",1);
+//        } catch (JMSException e) {
+//            e.printStackTrace();
+//        }
+
         sender.sendMessage(msg);
     }
 

@@ -1,6 +1,5 @@
 package applicationforms.loanbroker.Gateways;
 
-import applicationforms.abnamro.bank.JMSBankFrame;
 import applicationforms.loanbroker.loanbroker.LoanBrokerFrame;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -19,17 +18,17 @@ import javax.jms.TextMessage;
 /**
  * Created by Gebruiker on 13-2-2019.
  */
-public class BankAppGateway {
+public class BankAppGatewayABNAmro {
 
     private MessageRecieverGateway receiver;
     private MessageSenderGateway sender;
     private BankSerializer serializer;
 
     private LoanBrokerFrame frame;
-    public BankAppGateway(LoanBrokerFrame frame)
+    public BankAppGatewayABNAmro(LoanBrokerFrame frame)
     {
         this.frame = frame;
-        sender = new MessageSenderGateway("BankInterestRequest");
+        sender = new MessageSenderGateway("BankInterestRequestABNAmro");
         receiver = new MessageRecieverGateway("BankInterestReply");
         serializer = new BankSerializer();
 
@@ -47,6 +46,7 @@ public class BankAppGateway {
         receiver.setListener(listener);
     }
 
+    //the booleans shouls later be made in a .jar file
     public void sendBankRequest(BankInterestRequest request)
     {
         String object = serializer.requestToString(request);

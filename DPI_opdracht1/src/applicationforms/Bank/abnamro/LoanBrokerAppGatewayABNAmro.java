@@ -1,23 +1,19 @@
-package applicationforms.abnamro.bank;
+package applicationforms.Bank.abnamro;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import mix.ChainCode.Recievers.MessageRecieverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
 import mix.ChainCode.Serializers.BankSerializer;
-import mix.ChainCode.Serializers.LoanSerializer;
 import mix.messaging.requestreply.RequestReply;
 import mix.model.bank.BankInterestReply;
 import mix.model.bank.BankInterestRequest;
-import mix.model.loan.LoanReply;
-import mix.model.loan.LoanRequest;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
-public class LoanBrokerAppGateway {
+public class LoanBrokerAppGatewayABNAmro {
 
     private MessageRecieverGateway receiver;
     private MessageSenderGateway sender;
@@ -25,11 +21,11 @@ public class LoanBrokerAppGateway {
 
     private JMSBankFrame frame;
 
-    public LoanBrokerAppGateway(JMSBankFrame frame)
+    public LoanBrokerAppGatewayABNAmro(JMSBankFrame frame)
     {
         this.frame = frame;
         sender = new MessageSenderGateway("BankInterestReply");
-        receiver = new MessageRecieverGateway("BankInterestRequest");
+        receiver = new MessageRecieverGateway("BankInterestRequestABNAmro");
         serializer = new BankSerializer();
 
         MessageListener listener = msg -> {

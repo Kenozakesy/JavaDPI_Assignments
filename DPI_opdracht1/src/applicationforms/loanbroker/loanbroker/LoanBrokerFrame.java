@@ -1,27 +1,17 @@
 package applicationforms.loanbroker.loanbroker;
 
-import java.awt.EventQueue;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageListener;
-import javax.jms.TextMessage;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
-import applicationforms.loanbroker.Gateways.BankAppGateway;
+import applicationforms.loanbroker.Gateways.BankAppGatewayABNAmro;
 import applicationforms.loanbroker.Gateways.LoanClientAppGateway;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.google.gson.stream.JsonReader;
 import mix.Messages;
-import mix.ReceiveMessages;
-import mix.messaging.requestreply.RequestReply;
 import mix.model.bank.BankInterestReply;
 import mix.model.bank.BankInterestRequest;
 import mix.model.loan.LoanReply;
@@ -34,7 +24,9 @@ public class LoanBrokerFrame extends JFrame {
 	private JPanel contentPane;
     private static JScrollPane scrollPane;
 
-	private BankAppGateway bankGateway = new BankAppGateway(this);
+	private BankAppGatewayABNAmro bankGatewayABNAmro = new BankAppGatewayABNAmro(this);
+	//private BankAppGatewayABNAmro bankGateway = new BankAppGatewayABNAmro(this);
+	//private BankAppGatewayABNAmro bankGateway = new BankAppGatewayABNAmro(this);
 	private LoanClientAppGateway loanClientGateway = new LoanClientAppGateway(this);
 
 	public static Broker broker;
@@ -49,7 +41,8 @@ public class LoanBrokerFrame extends JFrame {
 	//----->
 	public void passRequestToBank(BankInterestRequest request)
 	{
-		bankGateway.sendBankRequest(request);
+
+		bankGatewayABNAmro.sendBankRequest(request);
 	}
 
 	//<-----
@@ -58,7 +51,6 @@ public class LoanBrokerFrame extends JFrame {
 		LoanReply loanReply = new LoanReply(reply.getInterest(), reply.getQuoteId());
 		JListLine jlistLine = broker.getRequestReply(request);
 		LoanRequest loanRequest = jlistLine.getLoanRequest();
-
 		loanClientGateway.sendLoanReply(loanRequest, loanReply);
 	}
 

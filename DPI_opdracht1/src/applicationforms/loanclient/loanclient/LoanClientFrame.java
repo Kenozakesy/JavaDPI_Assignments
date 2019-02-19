@@ -160,7 +160,7 @@ public class LoanClientFrame extends JFrame {
 
 		LoanClientFrame frame = new LoanClientFrame();
 		frame.setVisible(true);
-;
+
 	}
 
 

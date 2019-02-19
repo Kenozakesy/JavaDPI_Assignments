@@ -1,34 +1,17 @@
-package applicationforms.abnamro.bank;
+package applicationforms.Bank.Rabobank;
 
-import java.awt.EventQueue;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import applicationforms.Bank.abnamro.LoanBrokerAppGatewayABNAmro;
+import mix.messaging.requestreply.RequestReply;
+import mix.model.bank.BankInterestReply;
+import mix.model.bank.BankInterestRequest;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageListener;
-import javax.jms.TextMessage;
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextField;
-import javax.swing.border.EmptyBorder;
-
-import com.google.gson.Gson;
-import mix.Messages;
-import mix.ReceiveMessages;
-import mix.model.bank.*;
-import mix.messaging.requestreply.RequestReply;
-import mix.model.loan.LoanRequest;
-
-public class JMSBankFrame extends JFrame {
+public class JMSBankFrameRabobank extends JFrame {
 
 	//region UI
 	private static final long serialVersionUID = 1L;
@@ -38,23 +21,23 @@ public class JMSBankFrame extends JFrame {
 
 	public static DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>> listModel = new DefaultListModel<RequestReply<BankInterestRequest, BankInterestReply>>();
 	public JList<RequestReply<BankInterestRequest, BankInterestReply>> list = new JList<>(listModel);
-	private LoanBrokerAppGateway gateway = new LoanBrokerAppGateway(this);
+	private LoanBrokerAppGatewayRabobank gateway = new LoanBrokerAppGatewayRabobank(this);
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		JMSBankFrame frame = new JMSBankFrame();
+		JMSBankFrameRabobank frame = new JMSBankFrameRabobank();
 		frame.setVisible(true);
 	}
 
 	/**
 	 * Create the frame.
 	 */
-	public JMSBankFrame() {
+	public JMSBankFrameRabobank() {
 
 		//region UI
-		setTitle("JMS Bank - ABN AMRO");
+		setTitle("JMS Bank - Rabobank");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
