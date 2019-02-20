@@ -1,5 +1,6 @@
 package applicationforms.loanbroker.Gateways;
 
+import applicationforms.loanbroker.loanbroker.Aggregator.BankCheckSending;
 import applicationforms.loanbroker.loanbroker.LoanBrokerFrame;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -18,17 +19,23 @@ import javax.jms.TextMessage;
 /**
  * Created by Gebruiker on 13-2-2019.
  */
-public class BankAppGatewayABNAmro {
+public class BankAppGateway {
 
     private MessageRecieverGateway receiver;
-    private MessageSenderGateway sender;
+    private MessageSenderGateway senderAMRO;
+    private MessageSenderGateway senderING;
+    private MessageSenderGateway senderRabobank;
     private BankSerializer serializer;
 
     private LoanBrokerFrame frame;
-    public BankAppGatewayABNAmro(LoanBrokerFrame frame)
+    public BankAppGateway(LoanBrokerFrame frame)
     {
         this.frame = frame;
-        sender = new MessageSenderGateway("BankInterestRequestABNAmro");
+
+        senderAMRO = new MessageSenderGateway("BankInterestRequestABNAmro");
+        senderING = new MessageSenderGateway("BankInterestRequestING");
+        senderRabobank = new MessageSenderGateway("BankInterestRequestRabobank");
+
         receiver = new MessageRecieverGateway("BankInterestReply");
         serializer = new BankSerializer();
 
@@ -46,18 +53,28 @@ public class BankAppGatewayABNAmro {
         receiver.setListener(listener);
     }
 
-    //the booleans shouls later be made in a .jar file
-    public void sendBankRequest(BankInterestRequest request)
+    public void sendBankRequest(BankInterestRequest request, BankCheckSending check)
     {
         String object = serializer.requestToString(request);
-        Message msg = sender.createTextmessage(object);
-        sender.sendMessage(msg);
+        if(check.isRabobank())
+        {
+            Message msg = senderRabobank.createTextmessage(object);
+            senderRabobank.sendMessage(msg);
+        }
+        if(check.isING())
+        {
+            Message msg = senderING.createTextmessage(object);
+            senderING.sendMessage(msg);
+        }
+        if(check.isABNAmro())
+        {
+            Message msg = senderAMRO.createTextmessage(object);
+            senderAMRO.sendMessage(msg);
+        }
     }
 
     public void onBankReplyArrived(BankInterestRequest request, BankInterestReply reply)
     {
-        frame.broker.add(request, reply);
         frame.passReplyToClient(request, reply);
-
     }
 }

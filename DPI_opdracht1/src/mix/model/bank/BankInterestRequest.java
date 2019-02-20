@@ -1,5 +1,7 @@
 package mix.model.bank;
 
+import applicationforms.loanbroker.loanbroker.Aggregator.AggregationID;
+
 /**
  *
  * This class stores all information about an request from a bank to offer
@@ -9,6 +11,7 @@ public class BankInterestRequest {
 
     private int amount; // the requested loan amount
     private int time; // the requested loan period
+    private AggregationID aggregationID;
 
     public BankInterestRequest() {
         super();
@@ -38,6 +41,13 @@ public class BankInterestRequest {
         this.time = time;
     }
 
+    public AggregationID getAggregationID() {
+        return aggregationID;
+    }
+    public void setAggregationID(AggregationID aggregationID) {
+        this.aggregationID = aggregationID;
+    }
+
     @Override
     public String toString() {
         return " amount=" + amount + " time=" + time;
@@ -61,4 +71,6 @@ public class BankInterestRequest {
         result = 31 * result + getTime();
         return result;
     }
+
+
 }

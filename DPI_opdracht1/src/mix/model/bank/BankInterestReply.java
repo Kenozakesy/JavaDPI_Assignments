@@ -1,11 +1,13 @@
 package mix.model.bank;
 
+import java.util.Comparator;
+
 /**
  * This class stores information about the bank reply
  *  to a loan request of the specific client
  * 
  */
-public class BankInterestReply {
+public class BankInterestReply implements Comparable {
 
     private double interest; // the loan interest
     private String bankId; // the nunique quote Id
@@ -38,5 +40,19 @@ public class BankInterestReply {
 
     public String toString() {
         return "quote=" + this.bankId + " interest=" + this.interest;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        BankInterestReply b = (BankInterestReply)o;
+        if(b.interest < interest)
+        {
+            return 1;
+        }
+        else if(b.interest > interest)
+        {
+            return -1;
+        }
+        return 0;
     }
 }

@@ -3,7 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/JMSBankFrame.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/Bank/abnamro/LoanBrokerAppGatewayABNAmro.java">
           <value>
             <set />
           </value>
@@ -23,7 +33,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/BankAppGatewayABNAmro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/BankAppGatewayING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/BankAppGatewayRabobank.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/Gateways/LoanClientAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/Aggregator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/Aggregator/AggregationID.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/Aggregator/Aggregator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/applicationforms/loanbroker/loanbroker/Aggregator/BankCheckSending.java">
           <value>
             <set />
           </value>
@@ -69,6 +114,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/mix/ChainCode/Serializers/LoanSerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mix/model/bank/BankInterestReply.java">
           <value>
             <set />
           </value>

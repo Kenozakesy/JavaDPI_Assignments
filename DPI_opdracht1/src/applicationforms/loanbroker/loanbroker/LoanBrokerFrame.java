@@ -3,14 +3,19 @@ package applicationforms.loanbroker.loanbroker;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
-import applicationforms.loanbroker.Gateways.BankAppGatewayABNAmro;
+import applicationforms.loanbroker.Gateways.BankAppGateway;
+
 import applicationforms.loanbroker.Gateways.LoanClientAppGateway;
+import applicationforms.loanbroker.loanbroker.Aggregator.Aggregator;
+import applicationforms.loanbroker.loanbroker.Aggregator.BankCheckSending;
 import mix.Messages;
 import mix.model.bank.BankInterestReply;
 import mix.model.bank.BankInterestRequest;
@@ -24,9 +29,8 @@ public class LoanBrokerFrame extends JFrame {
 	private JPanel contentPane;
     private static JScrollPane scrollPane;
 
-	private BankAppGatewayABNAmro bankGatewayABNAmro = new BankAppGatewayABNAmro(this);
-	//private BankAppGatewayABNAmro bankGateway = new BankAppGatewayABNAmro(this);
-	//private BankAppGatewayABNAmro bankGateway = new BankAppGatewayABNAmro(this);
+    private List<Aggregator> AggregatorList = new ArrayList<>();
+	private BankAppGateway bankGateway = new BankAppGateway(this);
 	private LoanClientAppGateway loanClientGateway = new LoanClientAppGateway(this);
 
 	public static Broker broker;
@@ -39,19 +43,48 @@ public class LoanBrokerFrame extends JFrame {
 	}
 
 	//----->
-	public void passRequestToBank(BankInterestRequest request)
+	public synchronized void passRequestToBank(BankInterestRequest request)
 	{
+		//check if sending is applicable
+		BankCheckSending check = new BankCheckSending();
+		check.CheckSendAllowed(request);
 
-		bankGatewayABNAmro.sendBankRequest(request);
-	}
+		//logisch hier nieuwe aggredation ID aanmaken
+		Aggregator aggregator = new Aggregator(request, check.getNumberToSend());
+		AggregatorList.add(aggregator);
+
+		request.setAggregationID(aggregator.getAggregationID());
+
+		bankGateway.sendBankRequest(request, check);
+
+}
 
 	//<-----
-	public void passReplyToClient(BankInterestRequest request, BankInterestReply reply)
+	public synchronized void passReplyToClient(BankInterestRequest request, BankInterestReply reply)
 	{
-		LoanReply loanReply = new LoanReply(reply.getInterest(), reply.getQuoteId());
-		JListLine jlistLine = broker.getRequestReply(request);
-		LoanRequest loanRequest = jlistLine.getLoanRequest();
-		loanClientGateway.sendLoanReply(loanRequest, loanReply);
+		BankInterestReply finalReply = null;
+		Aggregator aggr = null;
+		for (Aggregator A : AggregatorList)
+		{
+			if(A.getAggregationID().getID() == request.getAggregationID().getID())
+			{
+				finalReply = A.addReply(reply);
+				if(finalReply != null)
+				{
+					aggr = A;
+				}
+				break;
+			}
+		}
+
+		if(finalReply != null) {
+			AggregatorList.remove(aggr);
+			broker.add(request, finalReply);
+			LoanReply loanReply = new LoanReply(finalReply.getInterest(), finalReply.getQuoteId());
+			JListLine jlistLine = broker.getRequestReply(request);
+			LoanRequest loanRequest = jlistLine.getLoanRequest();
+			loanClientGateway.sendLoanReply(loanRequest, loanReply);
+		}
 	}
 
 	/**

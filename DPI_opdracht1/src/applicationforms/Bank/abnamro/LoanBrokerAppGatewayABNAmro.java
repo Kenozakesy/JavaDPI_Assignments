@@ -46,7 +46,6 @@ public class LoanBrokerAppGatewayABNAmro {
         sender.sendMessage(msg);
     }
 
-    //how the fuck to receive back request and reply and give to GUI
     public void onBankInterestRequestArrived(BankInterestRequest request)
     {
         frame.listModel.addElement(new RequestReply<>(request, null));
