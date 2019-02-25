@@ -1,21 +1,12 @@
 
-`squid:UselessImportCheck
-"6Remove this unused import 'javax.jms.MessageListener'.(Äýãt8üü°¶Ž-
-usquid:S00117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýœçÈûÿÿÿÿ8¬ÖÏçŒ-
-tsquid:UselessImportCheck"DRemove this unused import 'mix.messaging.requestreply.RequestReply'.(›Œ…ôþÿÿÿÿ8…Ý›·Ž-
-^squid:UselessImportCheck	".Remove this unused import 'javax.jms.Message'.(óÓ®¡üÿÿÿÿ8…Ý›·Ž-
-gsquid:UselessImportCheck">Remove this unused import 'com.google.gson.stream.JsonReader'.(ËÓÌ—üÿÿÿÿ
-Osquid:S1444(",Make this "public static broker" field final(À³‹¬ýÿÿÿÿ8Ä„»´Ž-
-Jsquid:S3010R"'Remove this assignment of "scrollPane".(øÒò«þÿÿÿÿ8¬ÖÏçŒ-
-^squid:UselessImportCheck"3Remove this unused import 'javax.jms.JMSException'.(ú°’ú8…Ý›·Ž-
-\squid:UselessImportCheck"1Remove this unused import 'com.google.gson.Gson'.(–§8…Ý›·Ž-
-usquid:S00117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¬ÖÏçŒ-
-Ssquid:S1068)"5Remove this unused "messangerToClient" private field.(àÌ¤â8…Ý›·Ž-
-Qsquid:S1948&"3Make "loanClientGateway" transient or serializable.(ß™ÜÝ8òÌÆ¶Ž-
-nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(Ýªýñøÿÿÿÿ8…Ý›·Ž-
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(±ë“Ôüÿÿÿÿ
-Ksquid:S1948%"-Make "bankGateway" transient or serializable.(ÏéÈÎ8¿ä’µŽ-
-Œ"squid:ClassVariableVisibilityCheck("RMake broker a static final constant or non-public and provide accessors if needed.(À³‹¬ýÿÿÿÿ8Ä„»´Ž-
-]squid:UselessImportCheck"2Remove this unused import 'javax.jms.TextMessage'.(ü¹·Ö8…Ý›·Ž-
-[squid:UselessImportCheck"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ8üü°¶Ž-
-[squid:UselessImportCheck"0Remove this unused import 'mix.ReceiveMessages'.(ßºøÈ8üü°¶Ž-
+Jsquid:S3010k"'Remove this assignment of "scrollPane".(øÒò«þÿÿÿÿ8¬ÖÏçŒ-
+Qsquid:S1948""3Make "loanClientGateway" transient or serializable.(ß™ÜÝ8òÌÆ¶Ž-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(±ë“Ôüÿÿÿÿ
+Ssquid:S1068%"5Remove this unused "messangerToClient" private field.(àÌ¤â8…Ý›·Ž-
+Ksquid:S1948!"-Make "bankGateway" transient or serializable.(ÏéÈÎ8¿ä’µŽ-
+Œ"squid:ClassVariableVisibilityCheck$"RMake broker a static final constant or non-public and provide accessors if needed.(À³‹¬ýÿÿÿÿ8Ä„»´Ž-
+usquid:S00117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°«Ûëÿÿÿÿÿ8¬ÖÏçŒ-
+Osquid:S1444$",Make this "public static broker" field final(À³‹¬ýÿÿÿÿ8Ä„»´Ž-
+usquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýœçÈûÿÿÿÿ8¬ÖÏçŒ-
+xsquid:S00116 "YRename this field "AggregatorList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ç¨8Áú“þ-
+Nsquid:S1948 "0Make "AggregatorList" transient or serializable.(‚ç¨8Áú“þ-

@@ -6,7 +6,12 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.util.Properties;
 
+
 public class MessageRecieverGateway {
+
+//    private JMSContext context;
+//    private JMSProducer producer;
+//    private JMSConsumer consumer;
 
     private Connection connection;
     private Session session;

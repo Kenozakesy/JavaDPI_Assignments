@@ -1,6 +1,4 @@
 
-c
-3src/applicationforms/abnamro/bank/JMSBankFrame.java,5\b\5beccb1e2d78d5089aa26b7f46706d2c82f3c00c
 A
 DPI_opdracht1.iml,8\7\87b00c5bdfda64a40ae297fa63c5378adf29e93f
 E
@@ -27,8 +25,6 @@ f
 6src/applicationforms/loanbroker/loanbroker/Broker.java,0\0\003a87d2a95f24a22d2d74711c427f42c389c050
 g
 7src/mix/ChainCode/Recievers/MessageRecieverGateway.java,6\7\670e7f8ab464ad82aceb3945f3f2ce26ef334488
-n
->src/applicationforms/loanbroker/loanbroker/BankAppGateway.java,f\c\fc0f2ad88f6fadac9193761ce25c392d0d8a84bb
 a
 1src/mix/ChainCode/Serializers/LoanSerializer.java,6\3\632ee74849c902ad3b0dcaf113cf43a0fd5b9264
 a
@@ -37,9 +33,15 @@ e
 5src/mix/ChainCode/Recievers/MessageSenderGateway.java,1\d\1dbac154381be2ac26e1999c02f338e60cb3fb94
 t
 Dsrc/applicationforms/loanclient/loanclient/LoanBrokerAppGateway.java,0\9\09095a123c89cae7518a58ebf5d25f969893a32d
-k
-;src/applicationforms/abnamro/bank/LoanBrokerAppGateway.java,0\c\0ce19393dae1485a03a820df095d1b883e866b19
 r
 Bsrc/applicationforms/loanbroker/Gateways/LoanClientAppGateway.java,a\f\afd1bb37685cf8e7d204c63b25b58ee7b6b4350f
 l
 <src/applicationforms/loanbroker/Gateways/BankAppGateway.java,0\2\025e609aa09bf35bec1429834a747a261d003f23
+t
+Dsrc/applicationforms/Bank/Rabobank/LoanBrokerAppGatewayRabobank.java,8\b\8b30809a2d8dfe529af91ddc92258f226fbe45be
+j
+:src/applicationforms/Bank/ING/LoanBrokerAppGatewayING.java,b\7\b701cc6d5fde3377ebf92dbabd06f629beeadc39
+c
+3src/applicationforms/Bank/abnamro/JMSBankFrame.java,3\5\3544ac62f632f3535b3cc1a845b9fd2e90cd6077
+u
+Esrc/applicationforms/loanbroker/loanbroker/Aggregator/Aggregator.java,f\4\f48f3789123dd80ded8da1dac955435af4116042

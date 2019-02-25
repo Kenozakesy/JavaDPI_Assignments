@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.github.melowe:jms2-compat:1.0.3.7" type="repository">
+    <properties maven-id="com.github.melowe:jms2-compat:1.0.3.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jms2-compat-1.0.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms-api-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

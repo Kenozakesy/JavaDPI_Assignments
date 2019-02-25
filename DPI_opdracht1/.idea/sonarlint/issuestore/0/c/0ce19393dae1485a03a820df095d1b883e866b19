@@ -1,7 +1,0 @@
-
-Fsquid:S1148("#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8žÄÎ·Ž-
-psquid:UselessImportCheck"ERemove this unused import 'mix.ChainCode.Serializers.LoanSerializer'.(¶»ù½8ÓÜˆ±Ž-
-Ssquid:S22098"5Change this instance-reference to a static reference.( ùÉ«8óú‚´Ž-
-bsquid:UselessImportCheck"7Remove this unused import 'mix.model.loan.LoanRequest'.(àÏàí8®Î¬³Ž-
-esquid:UselessImportCheck"5Remove this unused import 'mix.model.loan.LoanReply'.(’Ñº‚úÿÿÿÿ8®Î¬³Ž-
-nsquid:UselessImportCheck">Remove this unused import 'com.google.gson.reflect.TypeToken'.(Ýªýñøÿÿÿÿ8®Î¬³Ž-
