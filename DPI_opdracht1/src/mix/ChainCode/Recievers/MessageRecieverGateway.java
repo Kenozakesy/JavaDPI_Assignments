@@ -9,14 +9,13 @@ import java.util.Properties;
 
 public class MessageRecieverGateway {
 
-//    private JMSContext context;
-//    private JMSProducer producer;
-//    private JMSConsumer consumer;
-
+    private JMSContext context;
     private Connection connection;
     private Session session;
     private Destination destination;
-    private MessageConsumer consumer;
+
+    private JMSConsumer consumer;
+    //private MessageConsumer consumer;
 
     private String hostname;
 
@@ -29,21 +28,16 @@ public class MessageRecieverGateway {
             Properties props = new Properties();
             props.setProperty(Context.INITIAL_CONTEXT_FACTORY, "org.apache.activemq.jndi.ActiveMQInitialContextFactory");
             props.setProperty(Context.PROVIDER_URL, hostname);
-
-            // connect to the Destination called “myFirstChannel”
-            // queue or topic: “queue.myFirstDestination” or “topic.myFirstDestination”
             props.put((listener + channelName), channelName);
 
             Context jndiContext = new InitialContext(props);
             ConnectionFactory connectionFactory = (ConnectionFactory) jndiContext.lookup("ConnectionFactory");
-            connection = connectionFactory.createConnection();
-            session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-
-            // connect to the receiver destination
+            connection = connectionFactory.createContext();
             destination = (Destination) jndiContext.lookup(channelName);
-            consumer = session.createConsumer(destination);
 
-            connection.start(); // this is needed to start receiving messages
+            session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+            consumer = (JMSConsumer) session.createConsumer(destination);
+            connection.start();
 
         } catch (NamingException | JMSException e) {
             e.printStackTrace();

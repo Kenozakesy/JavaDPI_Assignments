@@ -14,6 +14,7 @@ public class MessageSenderGateway {
     private Connection connection;
     private Session session;
     private Destination destination;
+    //private JMSProducer producer;
     private MessageProducer producer;
 
     //temporary field
