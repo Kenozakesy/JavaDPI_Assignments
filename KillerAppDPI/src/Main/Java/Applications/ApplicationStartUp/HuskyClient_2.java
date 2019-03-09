@@ -10,8 +10,10 @@ public class HuskyClient_2 extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../Forms/HuskyClient.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../../HuskyClient.fxml"));
         primaryStage.setTitle("HuskyClient_2");
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
