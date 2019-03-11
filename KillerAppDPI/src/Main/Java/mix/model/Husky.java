@@ -62,7 +62,7 @@ public class Husky {
         return status;
     }
     public void setStatus(TrainingStatus status) {
-        status = status;
+        this.status = status;
     }
 
     private String Bark()

@@ -7,5 +7,6 @@ public enum TrainingStatus {
     Trained,
     NotTrained,
     InTraining,
+    InKennel,
     Rejected,
 }

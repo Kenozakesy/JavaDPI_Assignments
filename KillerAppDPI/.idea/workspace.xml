@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/KillerAppDPI/META-INF/KillerAppDPI.kotlin_module" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/LoanBrokerAppGateway.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/LoanSerializer.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/2/025e609aa09bf35bec1429834a747a261d003f23" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/2/025e609aa09bf35bec1429834a747a261d003f23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/activemq_all_5_15_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/activemq_all_5_15_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_netflix_feign_feign_gson_8_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_netflix_feign_feign_gson_8_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mvvmfx_1_7_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KillerAppDPI.iml" afterPath="$PROJECT_DIR$/KillerAppDPI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KillerAppDPI/HuskyClient.fxml" afterPath="$PROJECT_DIR$/out/production/KillerAppDPI/HuskyClient.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml" afterPath="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,12 +74,14 @@
       <file leaf-file-name="Husky.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            <state relative-caret-position="428">
+              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +90,8 @@
       <file leaf-file-name="TrainingStatus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -131,22 +113,20 @@
       <file leaf-file-name="HuskyKennelGateway.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="600">
               <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuskyClientController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HuskyClientController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,12 +167,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuskyClient_3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HuskyClient_3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="320">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,12 +232,12 @@
         <option value="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
       </list>
     </option>
   </component>
@@ -656,7 +639,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552153236229" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PTS3.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mvvmfx-1.7.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15506329" />
     <property name="project.structure.side.proportion" value="0.3213873" />
@@ -1393,12 +1376,12 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1552059541635" duration="2812000" />
       <workItem from="1552144844387" duration="3271000" />
-      <workItem from="1552291469419" duration="8230000" />
+      <workItem from="1552291469419" duration="9998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15615000" />
+    <option name="totallyTimeSpent" value="17383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1417,14 +1400,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39575973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39222616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26266196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17078917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1448,7 +1431,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1643,26 +1640,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
@@ -1670,26 +1647,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1714,9 +1671,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="320">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1787,7 +1787,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <last-edited>mvvmfx-1.7.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

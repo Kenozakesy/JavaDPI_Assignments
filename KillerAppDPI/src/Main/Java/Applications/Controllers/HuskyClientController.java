@@ -1,7 +1,10 @@
 package Applications.Controllers;
 
+import Applications.Gateways.HuskyKennelGateway;
+import de.saxsys.mvvmfx.InjectViewModel;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
+import mix.model.Enums.TrainingStatus;
 import mix.model.Husky;
 import mix.model.Owner;
 
@@ -21,19 +24,32 @@ public class HuskyClientController {
     @FXML
     private ListView listViewHuskies;
 
+//    @InjectViewModel //is provided by mvvmFX
+//    private LoginViewModel viewModel;
+
     //endregion
 
-
+    private HuskyKennelGateway kennelGateway;
     private Owner owner;
 
     public void initialize() {
+        kennelGateway = new HuskyKennelGateway();
         owner = new Owner("Henk", "Dam", new Date(1992,3,21));
-        listViewHuskies.getItems().addAll(owner.getHuskyList());
+        loadScreen();
     }
 
     @FXML
     public void sendDog()
     {
-        System.out.println("test");
+        Husky husky = (Husky)listViewHuskies.getSelectionModel().getSelectedItem();
+        //kennelGateway.sendHuskyToKennel(husky);
+        husky.setStatus(TrainingStatus.InKennel);
+        loadScreen();
+    }
+
+    private void loadScreen()
+    {
+        listViewHuskies.getItems().removeAll();
+        listViewHuskies.getItems().addAll(owner.getHuskyList());
     }
 }
