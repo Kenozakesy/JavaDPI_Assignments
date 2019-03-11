@@ -1,7 +1,7 @@
 
-Nsquid:S1068"+Remove this unused "context" private field.(ÇùðÑùÿÿÿÿ8æƒ•ï’-
-?squid:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 ?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îøù-
+?squid:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Nsquid:S1068"+Remove this unused "context" private field.(ÇùðÑùÿÿÿÿ8æƒ•ï’-
 nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸çÉ€øÿÿÿÿ8æƒ•ï’-
 gsquid:S2583"DChange this condition so that it does not always evaluate to "false"(´ºÜýÿÿÿÿ8æƒ•ï’-

@@ -12,6 +12,7 @@ public class HuskyClient_1 extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../../HuskyClient.fxml"));
         primaryStage.setTitle("HuskyClient_1");
+        primaryStage.setResizable(false);
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();

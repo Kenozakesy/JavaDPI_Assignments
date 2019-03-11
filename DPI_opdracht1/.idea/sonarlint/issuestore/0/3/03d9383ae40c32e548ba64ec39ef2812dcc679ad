@@ -1,0 +1,10 @@
+
+‚"squid:ClassVariableVisibilityCheck"OMake ING a static final constant or non-public and provide accessors if needed.(”‰¸Üøÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"SMake ABNAmro a static final constant or non-public and provide accessors if needed.(ÃÆÞ¸ùÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck	"TMake Rabobank a static final constant or non-public and provide accessors if needed.(ÝÑúæ
+‰"squid:ClassVariableVisibilityCheck
+"VMake amountSend a static final constant or non-public and provide accessors if needed.(°î‹²ùÿÿÿÿ
+ksquid:S00116"NRename this field "ING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”‰¸Üøÿÿÿÿ
+osquid:S00116"RRename this field "ABNAmro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÆÞ¸ùÿÿÿÿ
+ksquid:S00116	"SRename this field "Rabobank" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÝÑúæ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤ò³ÿûÿÿÿÿ
