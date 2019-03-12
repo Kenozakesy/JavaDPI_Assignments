@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applications.Controllers.KennelController">
+   <children>
+      <ListView fx:id="listViewHuskies" layoutX="14.0" layoutY="14.0" prefHeight="481.0" prefWidth="953.0" />
+   </children>
+</AnchorPane>

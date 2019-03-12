@@ -23,7 +23,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Kennel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/KennelClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientGateway.java">
           <value>
             <set />
           </value>
@@ -34,6 +54,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/LoanBrokerAppGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageReceiverGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageRecieverGateway.java">
           <value>
             <set />
           </value>
@@ -53,12 +93,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/resources/Kennel.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/PayaraClient/pom.xml">
           <value>
             <set />
           </value>

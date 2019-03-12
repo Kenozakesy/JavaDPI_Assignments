@@ -7,7 +7,7 @@ import javax.naming.NamingException;
 import java.util.Properties;
 
 
-public class MessageRecieverGateway {
+public class MessageReceiverGateway {
 
     private Connection connection;
     private Session session;
@@ -16,7 +16,7 @@ public class MessageRecieverGateway {
 
     private String hostname;
 
-    public MessageRecieverGateway(String channelName)
+    public MessageReceiverGateway(String channelName)
     {
         hostname = "tcp://localhost:61616";
         String listener = false ? "topic." : "queue.";

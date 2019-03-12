@@ -1,26 +1,38 @@
 package Applications.Gateways;
 
 import Applications.Controllers.HuskyClientController;
+import Applications.Controllers.KennelController;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import mix.ChainCode.Recievers.MessageReceiverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
 import mix.ChainCode.Serializers.HuskySerializer;
+import mix.messaging.requestreply.RequestReply;
 import mix.model.Husky;
+import mix.model.Kennel;
+import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
+import javax.jms.TextMessage;
 
-public class HuskyKennelGateway {
+/**
+ * Created by Gebruiker on 12-3-2019.
+ */
+public class HuskyClientGateway {
 
-    private HuskyClientController controller;
+    private Kennel kennel;
+    private KennelController controller;
 
     private MessageReceiverGateway receiver;
     private MessageSenderGateway sender;
     private HuskySerializer serializer;
 
-    private String senderGateway = "HuskyTrainRequest";
-    private String receiverGateway = "HuskyReply";
+    private String senderGateway = "HuskyReply";
+    private String receiverGateway = "HuskyTrainRequest";
 
-    public HuskyKennelGateway(HuskyClientController controller)
+    public HuskyClientGateway(Kennel kennel, KennelController controller)
     {
+        this.kennel = kennel;
         this.controller = controller;
 
         sender = new MessageSenderGateway(senderGateway);
@@ -34,7 +46,7 @@ public class HuskyKennelGateway {
         receiver.setListener(listener);
     }
 
-    public void sendHuskyToKennel(Husky husky)
+    public void sendMessage(Husky husky)
     {
         String object = serializer.requestToString(husky);
         Message msg = sender.createTextmessage(object);
@@ -43,8 +55,7 @@ public class HuskyKennelGateway {
 
     public void onMessageArrived(Husky husky)
     {
-        System.out.println(husky.getName());
-
-
+        kennel.addHusky(husky);
+        controller.loadScreen();
     }
 }

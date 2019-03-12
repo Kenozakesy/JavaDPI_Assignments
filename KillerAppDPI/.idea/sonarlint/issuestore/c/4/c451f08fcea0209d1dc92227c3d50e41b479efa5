@@ -1,0 +1,9 @@
+
+Hsquid:S1068 "1Remove this unused "kennelGateway" private field.(∞·›—
+ssquid:S1450 "\Remove the "kennelGateway" field and declare it as a local variable in the relevant methods.(∞·›—
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡≤åk
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(˚•´Ÿ¸ˇˇˇˇ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è≈‘√˙ˇˇˇˇ
+^squid:UselessImportCheck"5Remove this unused import 'java.util.ResourceBundle'.(˝∆£Ø¯ˇˇˇˇ
+Rsquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ÒÏ¡Ñ¸ˇˇˇˇ
+asquid:UselessImportCheck"=Remove this unused import 'javafx.collections.FXCollections'.(¥∂≤∆

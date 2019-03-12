@@ -1,5 +1,5 @@
 
 Lsquid:S22095"5Change this instance-reference to a static reference.( ùÉ«
+?squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 psquid:UselessImportCheck"GRemove this unused import 'applicationforms.Bank.abnamro.JMSBankFrame'.(ñý¾¯úÿÿÿÿ
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇìØ¢üÿÿÿÿ
-?squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
