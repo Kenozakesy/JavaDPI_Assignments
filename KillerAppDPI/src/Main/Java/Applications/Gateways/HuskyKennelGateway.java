@@ -1,6 +1,7 @@
 package Applications.Gateways;
 
 import Applications.Controllers.HuskyClientController;
+import Binding.HuskyClientView;
 import mix.ChainCode.Recievers.MessageReceiverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
 import mix.ChainCode.Serializers.HuskySerializer;
@@ -10,7 +11,7 @@ import javax.jms.MessageListener;
 
 public class HuskyKennelGateway {
 
-    private HuskyClientController controller;
+    private HuskyClientView view;
 
     private MessageReceiverGateway receiver;
     private MessageSenderGateway sender;
@@ -19,9 +20,9 @@ public class HuskyKennelGateway {
     private String senderGateway = "HuskyTrainRequest";
     private String receiverGateway = "HuskyReply";
 
-    public HuskyKennelGateway(HuskyClientController controller)
+    public HuskyKennelGateway(HuskyClientView view)
     {
-        this.controller = controller;
+        this.view = view;
 
         sender = new MessageSenderGateway(senderGateway);
         receiver = new MessageReceiverGateway(receiverGateway);
