@@ -2,38 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/KennelClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientGateway.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/resources/Kennel.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanReply.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanRequest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageRecieverGateway.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageReceiverGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/2/025e609aa09bf35bec1429834a747a261d003f23" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/2/025e609aa09bf35bec1429834a747a261d003f23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/3/03d9383ae40c32e548ba64ec39ef2812dcc679ad" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/3/03d9383ae40c32e548ba64ec39ef2812dcc679ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/c/b/cbd5ff2bace8d2fed843c305ca7588a40ec239df" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/c/b/cbd5ff2bace8d2fed843c305ca7588a40ec239df" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DPI-ontwerp/~$I6 - ontwerp document.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Test/HuskyTest_1.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java" afterPath="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java" afterPath="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ac93725cde807b6ed508c2790899251a356345a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ac93725cde807b6ed508c2790899251a356345a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899d07924e857a7b44685ac69d43a0c0c60a5de8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899d07924e857a7b44685ac69d43a0c0c60a5de8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a38dafcf6a6db08b443b6028c56f113a6acd84eb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a38dafcf6a6db08b443b6028c56f113a6acd84eb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6da1f91504cf3e601ed04c49baa8251ae67f201" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6da1f91504cf3e601ed04c49baa8251ae67f201" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c451f08fcea0209d1dc92227c3d50e41b479efa5" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c451f08fcea0209d1dc92227c3d50e41b479efa5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f93c8bbc39c5e1b4a9520cb675f5f3e23ba4ac1d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f93c8bbc39c5e1b4a9520cb675f5f3e23ba4ac1d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KillerAppDPI.iml" afterPath="$PROJECT_DIR$/KillerAppDPI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KillerAppDPI/HuskyClient.fxml" afterPath="$PROJECT_DIR$/out/production/KillerAppDPI/HuskyClient.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml" afterPath="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,128 +92,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HuskyKennelGateway.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuskyClientGateway.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientGateway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KennelClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/KennelClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KennelController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kennel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuskyClient_1.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HuskyClient_1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuskyClientController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#sendDog#0;class#HuskyClientController#0" expanded="false" />
-                <element signature="method#loadScreen#0;class#HuskyClientController#0" expanded="false" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="2577" column="0" lean-forward="false" selection-start-line="2577" selection-start-column="0" selection-end-line="2577" selection-end-column="0" />
+            <state relative-caret-position="700">
+              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HuskyClientView.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HuskyClientViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java">
+        <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="400">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HuskyClientView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java">
+        <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/LoanBrokerAppGateway.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/LoanBrokerAppGateway.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" />
@@ -275,7 +210,15 @@
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/KennelClient.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClient.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientView.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -319,6 +262,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -372,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,40 +395,6 @@
               <option name="myItemId" value="Binding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KillerAppDPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KillerAppDPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewModels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -536,10 +452,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KillerAppDPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KillerAppDPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApplicationStartUp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -570,23 +516,24 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main" />
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Applications\resources" />
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java" />
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Forms" />
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\Documents\GitHub\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Binding\Views" />
+      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Applications" />
+      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Applications.ApplicationStartUp" />
       <recent name="Applications" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Applications" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\Documents\GitHub\JavaDPI_Assignments\KillerAppDPI\src\Main\resources" />
       <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main" />
+      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Applications\resources" />
+      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java" />
+      <recent name="C:\Users\KoenW\Documents\School\Github\JavaDPI_Assignments\KillerAppDPI\src\Main\Java\Forms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1337,16 +1284,17 @@
       <workItem from="1552144844387" duration="3271000" />
       <workItem from="1552291469419" duration="9998000" />
       <workItem from="1552377393437" duration="571000" />
-      <workItem from="1552389437854" duration="10790000" />
+      <workItem from="1552389437854" duration="10927000" />
+      <workItem from="1552462188995" duration="7112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28744000" />
+    <option name="totallyTimeSpent" value="35993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1368,11 +1316,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803298" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24381626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1395,36 +1343,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java</url>
-          <line>65</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java</url>
-          <line>41</line>
+          <line>52</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1433,64 +1363,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Test/HuskyTest_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#748#749#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#813#814#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-            <element signature="e#1105#1106#0" expanded="false" />
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1174#1175#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1269#1270#0" expanded="false" />
-            <element signature="e#1312#1313#0" expanded="false" />
-            <element signature="e#1348#1349#0" expanded="false" />
-            <element signature="e#1388#1389#0" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1498,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,20 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1097#1098#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-            <element signature="e#1209#1210#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1527,9 +1388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,29 +1397,31 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendDog#0;class#HuskyClientController#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <element signature="method#loadScreen#0;class#HuskyClientController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,8 +1431,8 @@
           <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1590,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1608,20 +1468,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanReply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanReply.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageSenderGateway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1640,9 +1488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1658,22 +1504,10 @@
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/BankSerializer.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/bank/BankInterestReply.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/bank/BankInterestRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanReply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanReply.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/ReceiveMessages.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/Messages.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/loan/LoanRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/messaging/requestreply/RequestReply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1685,18 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,20 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1097#1098#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-            <element signature="e#1209#1210#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1727,8 +1535,8 @@
           <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1747,7 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1755,30 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="72" column="13" lean-forward="false" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#748#749#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#813#814#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-            <element signature="e#1105#1106#0" expanded="false" />
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1174#1175#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1269#1270#0" expanded="false" />
-            <element signature="e#1312#1313#0" expanded="false" />
-            <element signature="e#1348#1349#0" expanded="false" />
-            <element signature="e#1388#1389#0" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1787,41 +1570,117 @@
         <state relative-caret-position="420">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/resources/Kennel.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageReceiverGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
+        <state relative-caret-position="460">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48460">
+          <caret line="2577" column="0" lean-forward="false" selection-start-line="2577" selection-start-column="0" selection-end-line="2577" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#127539#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#6271#6272#0" expanded="false" />
+            <element signature="e#6331#6332#0" expanded="false" />
+            <element signature="e#45311#45312#0" expanded="false" />
+            <element signature="e#45372#45373#0" expanded="false" />
+            <element signature="e#57599#57600#0" expanded="false" />
+            <element signature="e#57671#57672#0" expanded="false" />
+            <element signature="e#60461#60462#0" expanded="false" />
+            <element signature="e#60497#60498#0" expanded="false" />
+            <element signature="e#60556#60557#0" expanded="false" />
+            <element signature="e#60598#60599#0" expanded="false" />
+            <element signature="e#61112#61113#0" expanded="false" />
+            <element signature="e#61148#61149#0" expanded="false" />
+            <element signature="e#65761#65762#0" expanded="false" />
+            <element signature="e#65796#65797#0" expanded="false" />
+            <element signature="e#66818#66819#0" expanded="false" />
+            <element signature="e#66864#66865#0" expanded="false" />
+            <element signature="e#66921#66922#0" expanded="false" />
+            <element signature="e#66966#66967#0" expanded="false" />
+            <element signature="e#68431#68432#0" expanded="false" />
+            <element signature="e#68477#68478#0" expanded="false" />
+            <element signature="e#68921#68922#0" expanded="false" />
+            <element signature="e#68967#68968#0" expanded="false" />
+            <element signature="e#69372#69373#0" expanded="false" />
+            <element signature="e#69418#69419#0" expanded="false" />
+            <element signature="e#69818#69819#0" expanded="false" />
+            <element signature="e#69864#69865#0" expanded="false" />
+            <element signature="e#78649#78650#0" expanded="false" />
+            <element signature="e#78724#78725#0" expanded="false" />
+            <element signature="e#78827#78828#0" expanded="false" />
+            <element signature="e#78858#78859#0" expanded="false" />
+            <element signature="e#79010#79011#0" expanded="false" />
+            <element signature="e#79046#79047#0" expanded="false" />
+            <element signature="e#79248#79249#0" expanded="false" />
+            <element signature="e#79295#79296#0" expanded="false" />
+            <element signature="e#80212#80213#0" expanded="false" />
+            <element signature="e#80265#80266#0" expanded="false" />
+            <element signature="e#81592#81593#0" expanded="false" />
+            <element signature="e#81623#81624#0" expanded="false" />
+            <element signature="e#81787#81788#0" expanded="false" />
+            <element signature="e#81827#81828#0" expanded="false" />
+            <element signature="e#81963#81964#0" expanded="false" />
+            <element signature="e#81995#81996#0" expanded="false" />
+            <element signature="e#82173#82174#0" expanded="false" />
+            <element signature="e#82215#82216#0" expanded="false" />
+            <element signature="e#82340#82341#0" expanded="false" />
+            <element signature="e#82372#82373#0" expanded="false" />
+            <element signature="e#82502#82503#0" expanded="false" />
+            <element signature="e#82532#82533#0" expanded="false" />
+            <element signature="e#82931#82932#0" expanded="false" />
+            <element signature="e#82963#82964#0" expanded="false" />
+            <element signature="e#83880#83881#0" expanded="false" />
+            <element signature="e#83916#83917#0" expanded="false" />
+            <element signature="e#84840#84841#0" expanded="false" />
+            <element signature="e#84877#84878#0" expanded="false" />
+            <element signature="e#85050#85051#0" expanded="false" />
+            <element signature="e#85102#85103#0" expanded="false" />
+            <element signature="e#85270#85271#0" expanded="false" />
+            <element signature="e#85310#85311#0" expanded="false" />
+            <element signature="e#85699#85700#0" expanded="false" />
+            <element signature="e#85729#85730#0" expanded="false" />
+            <element signature="e#96278#96279#0" expanded="false" />
+            <element signature="e#96346#96347#0" expanded="false" />
+            <element signature="e#105847#105848#0" expanded="false" />
+            <element signature="e#105919#105920#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,86 +1692,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="74" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Recievers/MessageReceiverGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-20">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="606">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="2577" column="0" lean-forward="false" selection-start-line="2577" selection-start-column="0" selection-end-line="2577" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClientView.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/resources/HuskyClient.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="49">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendDog#0;class#HuskyClientController#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <element signature="method#loadScreen#0;class#HuskyClientController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1984,7 +1871,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mvvmfx-1.7.0</last-edited>
+          <last-edited>Java EE 6-Java EE 6 (2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

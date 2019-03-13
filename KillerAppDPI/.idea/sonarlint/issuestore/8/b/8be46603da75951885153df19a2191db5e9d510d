@@ -1,0 +1,5 @@
+
+?squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ŽÍÿÿÿÿÿÿ
+}squid:S4144%"_Update this method so that its implementation is not identical to "requestToString" on line 19.(Âã»Û8œ‡ïŽ—-
+bsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Ú°à¬

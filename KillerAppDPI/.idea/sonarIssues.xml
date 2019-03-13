@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
           <value>
             <set />
@@ -58,7 +63,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main/Java/Binding/Views/HuskyClient.fxml">
           <value>
             <set />
           </value>
@@ -114,6 +144,51 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../../IntelliJProjects/PayaraClient/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/com/example/helloworld/HelloworldView.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/com/example/helloworld/HelloworldView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/com/example/helloworld/HelloworldViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/com/example/helloworld/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/com/example/helloworld/ViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/sample/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/sample/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../IntelliJProjects/TestProjectMVVMFX/src/main/java/sample/sample.fxml">
           <value>
             <set />
           </value>

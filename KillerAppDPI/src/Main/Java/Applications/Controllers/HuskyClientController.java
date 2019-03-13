@@ -1,10 +1,10 @@
 package Applications.Controllers;
 
 import Applications.Gateways.HuskyKennelGateway;
-import Binding.ViewModels.HuskyClientViewModel;
+import Binding.HuskyClientViewModel;
 import de.saxsys.mvvmfx.FxmlView;
-import de.saxsys.mvvmfx.InjectViewModel;
-import javafx.collections.FXCollections;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import mix.model.Enums.TrainingStatus;
@@ -14,24 +14,21 @@ import mix.model.Owner;
 import javafx.scene.control.*;
 
 import java.net.URL;
-import java.util.Date;
 import java.util.ResourceBundle;
 
 public class HuskyClientController implements FxmlView<HuskyClientViewModel>, Initializable {
-
-    @InjectViewModel //is provided by mvvmFX
-    private HuskyClientViewModel viewModel = new HuskyClientViewModel();
 
     /**
      * GUI Objects
      */
     //region UI
-    @FXML
-    private TextField helloLabel;
 
     @FXML
     private ListView listViewHuskies;
 
+    @FXML
+    private TextField helloLabel;
+    private StringProperty prop = new SimpleStringProperty("Hello World");
 
 
     //endregion
@@ -39,7 +36,12 @@ public class HuskyClientController implements FxmlView<HuskyClientViewModel>, In
     private Owner owner;
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        helloLabel.textProperty().bind(viewModel.helloMessage());
+        //bind properties here
+        helloLabel.textProperty().bindBidirectional(prop);
+
+
+
+
 
 //        kennelGateway = new HuskyKennelGateway(this);
 //        owner = new Owner("Henk", "Dam", new Date(1992,3,21));

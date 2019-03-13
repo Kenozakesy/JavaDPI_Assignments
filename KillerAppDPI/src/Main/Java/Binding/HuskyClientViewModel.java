@@ -1,4 +1,4 @@
-package Binding.ViewModels;
+package Binding;
 
 import de.saxsys.mvvmfx.ViewModel;
 import javafx.beans.property.SimpleStringProperty;
@@ -8,17 +8,17 @@ import javafx.beans.property.StringProperty;
  * Created by Gebruiker on 12-3-2019.
  */
 public class HuskyClientViewModel implements ViewModel {
+    private StringProperty helloMessage = new SimpleStringProperty("Hello World");
 
-    private final StringProperty helloMessage = new SimpleStringProperty("Hello World");
-
-    public StringProperty helloMessage() {
+    public StringProperty helloMessageProperty(){
         return helloMessage;
     }
 
-    public String getHelloMessage() {
+    public String getHelloMessage(){
         return helloMessage.get();
     }
-    public void setHelloMessage(String message) {
+
+    public void setHelloMessage(String message){
         helloMessage.set(message);
     }
 }

@@ -1,0 +1,10 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÔÃúÿÿÿÿ
+esquid:UselessImportCheck";Remove this unused import 'mix.model.Enums.TrainingStatus'.(£Å08ìÀ•—-
+Tsquid:S1068"1Remove this unused "clientGateway" private field.(ìúçøÿÿÿÿ8ìö¢—-
+Wsquid:UselessImportCheck",Remove this unused import 'mix.model.Husky'.(¥§ğæ8ìÀ•—-
+psquid:UselessImportCheck"ERemove this unused import 'Applications.Gateways.HuskyKennelGateway'.(„êÊ 8©¼£—-
+squid:S1450"\Remove the "clientGateway" field and declare it as a local variable in the relevant methods.(ìúçøÿÿÿÿ8è£—-
+\squid:UselessImportCheck
+",Remove this unused import 'mix.model.Owner'.(íü‚åúÿÿÿÿ8¡ñ¡—-
+Vsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8ğ·¡—-

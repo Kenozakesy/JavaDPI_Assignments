@@ -19,3 +19,21 @@ N
 src/Main/Test/HuskyTest_1.java,1\4\1424be98bee0a24225786a3dae16058adc6ceca0
 q
 Asrc/Main/Java/Applications/Controllers/HuskyClientController.java,c\4\c451f08fcea0209d1dc92227c3d50e41b479efa5
+l
+<src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java,8\b\8be46603da75951885153df19a2191db5e9d510d
+q
+Asrc/Main/Java/mix/ChainCode/Recievers/MessageReceiverGateway.java,4\7\47f4492a22c84299a2704c809e37cc60f563db67
+S
+#src/Main/Java/mix/model/Kennel.java,3\3\33bf361f8561550a4b18c7d2245a4fa616547115
+N
+src/Main/resources/Kennel.fxml,7\f\7f2cf622537f070527a65dae300b1ccbb2ab9a31
+o
+?src/Main/Java/Applications/ApplicationStartUp/KennelClient.java,3\f\3f4061d9c1dca9e1db5c0ad5a1aeca03489fd9ac
+k
+;src/Main/Java/Applications/Gateways/HuskyClientGateway.java,3\2\327d1fa7143a6c6f32056728331eea3dc0e7ec35
+`
+0src/Main/Java/Binding/Views/HuskyClientView.java,5\f\5f5bb5977036acb85774afa13667af908bb42915
+j
+:src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java,3\e\3e31dc9510012738c24942d56db60a969fdeb8fa
+l
+<src/Main/Java/Applications/Controllers/KennelController.java,9\e\9e311dda3325cb797c67d4b6ea96a0bf214b81e7

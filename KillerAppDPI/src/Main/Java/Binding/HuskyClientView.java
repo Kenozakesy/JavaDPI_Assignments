@@ -1,6 +1,5 @@
-package Binding.Views;
+package Binding;
 
-import Binding.ViewModels.HuskyClientViewModel;
 import de.saxsys.mvvmfx.FxmlView;
 import de.saxsys.mvvmfx.InjectViewModel;
 import javafx.fxml.FXML;
@@ -23,7 +22,6 @@ public class HuskyClientView implements FxmlView<HuskyClientViewModel>, Initiali
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        helloLabel.textProperty().bind(viewModel.helloMessage());
-
+        helloLabel.textProperty().bindBidirectional(viewModel.helloMessageProperty());
     }
 }

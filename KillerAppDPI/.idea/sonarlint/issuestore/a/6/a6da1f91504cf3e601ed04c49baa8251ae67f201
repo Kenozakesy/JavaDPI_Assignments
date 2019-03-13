@@ -1,6 +1,6 @@
 
-Nsquid:UnusedPrivateMethodD")Remove this unused private "Bark" method.(’ŠÒé
-Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(ê€´®üÿÿÿÿ
-Osquid:S3400F"9Remove this method and declare a constant for this value.(³â
-fsquid:S00100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ŠÒé
 [squid:UselessImportCheck"2Remove this unused import 'com.sun.glass.ui.Size'.(ê€´®üÿÿÿÿ
+fsquid:S00100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ŠÒé
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(ê€´®üÿÿÿÿ
+Nsquid:UnusedPrivateMethodD")Remove this unused private "Bark" method.(’ŠÒé
+Osquid:S3400F"9Remove this method and declare a constant for this value.(³â
