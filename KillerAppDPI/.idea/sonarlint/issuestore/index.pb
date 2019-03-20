@@ -1,8 +1,6 @@
 
 R
 "src/Main/Java/mix/model/Owner.java,d\d\dd423e03350fd276b3c7f984e02f6d981c0860c6
-S
-#src/Main/resources/HuskyClient.fxml,1\f\1f3eea40dfaf2cc4ed989440f515c7a8bea1570b
 k
 ;src/Main/Java/Applications/Gateways/HuskyKennelGateway.java,8\9\899d07924e857a7b44685ac69d43a0c0c60a5de8
 R
@@ -10,13 +8,7 @@ R
 a
 1src/Main/Java/mix/model/Enums/TrainingStatus.java,f\9\f93c8bbc39c5e1b4a9520cb675f5f3e23ba4ac1d
 p
-@src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java,d\b\db0a88613f65b68a7cfd798c7204def4d8406872
-p
-@src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java,2\a\2ac93725cde807b6ed508c2790899251a356345a
-p
 @src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java,a\3\a38dafcf6a6db08b443b6028c56f113a6acd84eb
-N
-src/Main/Test/HuskyTest_1.java,1\4\1424be98bee0a24225786a3dae16058adc6ceca0
 q
 Asrc/Main/Java/Applications/Controllers/HuskyClientController.java,c\4\c451f08fcea0209d1dc92227c3d50e41b479efa5
 l
@@ -31,9 +23,15 @@ o
 ?src/Main/Java/Applications/ApplicationStartUp/KennelClient.java,3\f\3f4061d9c1dca9e1db5c0ad5a1aeca03489fd9ac
 k
 ;src/Main/Java/Applications/Gateways/HuskyClientGateway.java,3\2\327d1fa7143a6c6f32056728331eea3dc0e7ec35
-`
-0src/Main/Java/Binding/Views/HuskyClientView.java,5\f\5f5bb5977036acb85774afa13667af908bb42915
-j
-:src/Main/Java/Binding/ViewModels/HuskyClientViewModel.java,3\e\3e31dc9510012738c24942d56db60a969fdeb8fa
 l
 <src/Main/Java/Applications/Controllers/KennelController.java,9\e\9e311dda3325cb797c67d4b6ea96a0bf214b81e7
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+_
+/src/Main/Java/Binding/HuskyClientViewModel.java,6\5\65bc3f0a60555abea5abc3dc613a9d27faf72202
+Z
+*src/Main/Java/Binding/HuskyClientView.java,b\1\b1b7d7df5821cc217be872edc0582935dc13f896
+W
+'src/Main/resources/HuskyClientView.fxml,b\a\baa4aa55f16b48e97a123a70f0b7eb7d8f30bff2
+o
+?src/Main/Java/mix/ChainCode/Recievers/MessageSenderGateway.java,f\8\f84304ee40cc7dd96acbf7527d2bfebe69d5cec0

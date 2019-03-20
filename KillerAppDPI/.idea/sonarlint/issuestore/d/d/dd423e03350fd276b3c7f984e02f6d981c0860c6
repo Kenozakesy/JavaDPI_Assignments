@@ -1,0 +1,6 @@
+
+nsquid:UselessImportCheck">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ8’ù‹˜-
+hsquid:UselessImportCheck"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ8¬ï÷‹˜-
+rsquid:UselessImportCheck	"BRemove this unused import 'javax.security.auth.callback.Callback'.(‚¨á£ûÿÿÿÿ8ˆ¶£º—-
+nsquid:UselessImportCheck">Remove this unused import 'javafx.beans.InvalidationListener'.(í¿ïÈþÿÿÿÿ8«¼¥¸—-
+msquid:UselessImportCheck"BRemove this unused import 'javafx.collections.ListChangeListener'.(šê ƒ8«¼¥¸—-

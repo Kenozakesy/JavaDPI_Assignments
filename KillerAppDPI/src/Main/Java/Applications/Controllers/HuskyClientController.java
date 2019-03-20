@@ -1,8 +1,6 @@
 package Applications.Controllers;
 
-import Applications.Gateways.HuskyKennelGateway;
-import Binding.HuskyClientViewModel;
-import de.saxsys.mvvmfx.FxmlView;
+import Applications.Gateways.HuskyClientToKennelGateway;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
@@ -14,10 +12,10 @@ import mix.model.Owner;
 import javafx.scene.control.*;
 
 import java.net.URL;
+import java.util.Date;
 import java.util.ResourceBundle;
 
-public class HuskyClientController implements FxmlView<HuskyClientViewModel>, Initializable {
-
+public class HuskyClientController {
     /**
      * GUI Objects
      */
@@ -26,26 +24,20 @@ public class HuskyClientController implements FxmlView<HuskyClientViewModel>, In
     @FXML
     private ListView listViewHuskies;
 
-    @FXML
-    private TextField helloLabel;
-    private StringProperty prop = new SimpleStringProperty("Hello World");
-
 
     //endregion
-    private HuskyKennelGateway kennelGateway;
+    private HuskyClientToKennelGateway kennelGateway;
     private Owner owner;
 
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        //bind properties here
-        helloLabel.textProperty().bindBidirectional(prop);
+    public HuskyClientController()
+    {
 
+    }
 
-
-
-
-//        kennelGateway = new HuskyKennelGateway(this);
-//        owner = new Owner("Henk", "Dam", new Date(1992,3,21));
-//        loadScreen();
+    public void initialize() {
+        kennelGateway = new HuskyClientToKennelGateway(this);
+        owner = new Owner("Henk", "Dam", new Date(1992,3,21));
+        loadScreen();
     }
 
     @FXML
@@ -59,7 +51,7 @@ public class HuskyClientController implements FxmlView<HuskyClientViewModel>, In
         }
         else
         {
-
+            System.out.println("please select a dog first");
         }
     }
 

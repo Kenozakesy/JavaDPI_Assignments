@@ -153,12 +153,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Controllers/SchoolController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskyClientGateway.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/Aggregator/Aggregator.java">
           <value>
             <set />
           </value>
@@ -174,6 +184,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/ChainCode/Serializers/HuskySerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskyTestReply.java">
           <value>
             <set />
           </value>

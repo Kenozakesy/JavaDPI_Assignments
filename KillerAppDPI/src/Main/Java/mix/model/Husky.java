@@ -72,14 +72,42 @@ public class Husky {
 
     @Override
     public String toString() {
-        return "Husky{" +
+        return "Husky: " +
                 "name='" + name + '\'' +
                 ", birthDate=" + birthDate +
-                ", height=" + height +
-                ", width=" + width +
-                ", length=" + length +
                 ", Status=" + status +
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Husky)) return false;
+
+        Husky husky = (Husky) o;
+
+//        if (Double.compare(husky.getHeight(), getHeight()) != 0) return false;
+//        if (Double.compare(husky.getWidth(), getWidth()) != 0) return false;
+//        if (Double.compare(husky.getLength(), getLength()) != 0) return false;
+        if (getName() != null ? !getName().equals(husky.getName()) : husky.getName() != null) return false;
+        if (getBirthDate() != null ? !getBirthDate().equals(husky.getBirthDate()) : husky.getBirthDate() != null)
+            return false;
+        return getStatus() == husky.getStatus();
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        result = getName() != null ? getName().hashCode() : 0;
+        result = 31 * result + (getBirthDate() != null ? getBirthDate().hashCode() : 0);
+        result = 31 * result + (getStatus() != null ? getStatus().hashCode() : 0);
+        temp = Double.doubleToLongBits(getHeight());
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(getWidth());
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(getLength());
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
+    }
 }

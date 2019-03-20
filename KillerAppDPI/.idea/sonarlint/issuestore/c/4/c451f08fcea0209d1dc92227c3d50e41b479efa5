@@ -1,5 +1,5 @@
 
-Msquid:S00108;")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8ÛÚ—-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÔÃúÿÿÿÿ
-asquid:UselessImportCheck"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ
-isquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(†ì¤Ğ8üÜµ’—-
+isquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(†ì¤Ğ8¦¿Ë´—-
+Msquid:S00108=")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8¦¿Ë´—-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÔÃúÿÿÿÿ8¦¿Ë´—-
+Ksquid:S1068"(Remove this unused "prop" private field.(¹œ®àúÿÿÿÿ8«™ùŒ˜-
