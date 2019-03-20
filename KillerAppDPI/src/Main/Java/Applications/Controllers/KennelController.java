@@ -82,6 +82,11 @@ public class KennelController {
             }
         }
 
+        //hier moet de daadwerkelijke husky verzonden worden set to check
+
+        //husky krijgt school toegewezen
+        //kennel drukt op versturen
+
         if(finalReply != null) { //zelf invulling geven
             AggregatorList.remove(aggr);
             broker.add(request, finalReply);

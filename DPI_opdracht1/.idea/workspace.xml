@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8185327-7088-4878-b2f4-b5df5c88b912" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/ChainCode/Serializers/HuskyTestReplySerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/ChainCode/Serializers/HuskyTestRequestSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskyTestRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/.idea/libraries/com_netflix_feign_feign_gson_8_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/.idea/libraries/com_netflix_feign_feign_gson_8_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Controllers/KennelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Controllers/KennelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Controllers/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Controllers/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPublic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPublic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskySchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskySchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskyTestReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KillerAppDPI/src/Main/Java/mix/model/HuskyTestReply.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -382,7 +369,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553111058290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553111170105" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
