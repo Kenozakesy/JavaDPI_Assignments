@@ -10,11 +10,13 @@ public class HuskyTestReply{
     private Husky husky;
     private HuskyScore score;
     private String privateTrainAddress;
+    private int aggregatorID;
 
-    public HuskyTestReply(Husky husky, HuskyScore score, String privateTrainAddress)
+    public HuskyTestReply(Husky husky, HuskyScore score, String privateTrainAddress, int aggregatorID)
     {
         this.husky = husky;
         this.score = score;
+        this.aggregatorID = aggregatorID;
         this.privateTrainAddress = privateTrainAddress;
     }
 
@@ -36,5 +38,7 @@ public class HuskyTestReply{
     public void setPrivateTrainAddress(String privateTrainAddress) {
         this.privateTrainAddress = privateTrainAddress;
     }
-
+    public int getAggregatorID() {
+        return aggregatorID;
+    }
 }

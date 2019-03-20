@@ -1,6 +1,5 @@
 package mix.model;
 
-import javax.persistence.Convert;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -33,7 +32,7 @@ public class HuskySchool {
         this.huskyList = huskyList;
     }
 
-    public HuskyScore calculatePotential(Husky husky)
+    public HuskyScore calculatePotential()
     {
         Random ran = new Random();
         int random = 1 + ran.nextInt(100 - 1 + 1);

@@ -4,10 +4,7 @@ import Applications.Gateways.HuskySchoolToKennelGatewayPrivate;
 import Applications.Gateways.HuskySchoolToKennelGatewayPublic;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
-import mix.model.Husky;
-import mix.model.HuskySchool;
-import mix.model.HuskyScore;
-import mix.model.HuskyTestReply;
+import mix.model.*;
 
 /**
  * Created by Gebruiker on 20-3-2019.
@@ -50,18 +47,16 @@ public class SchoolController {
 
     //region receive_messages
 
-    public void receiveHuskyFromClient(Husky husky)
+    public void receiveTestRequestFromClient(HuskyTestRequest request)
     {
         //calculate score
-        HuskyScore score = school.calculatePotential(husky);
-        System.out.println(score.getScore());
+        HuskyScore score = school.calculatePotential(); //moet de husky later in mee worden genomen
 
         //give back score
-        //HuskyTestReply reply = new HuskyTestReply(husky, score, kennelGatewayPrivate.)
-
+        HuskyTestReply reply = new HuskyTestReply(request.getHusky(), score, kennelGatewayPrivate.getReceiverGateway(), request.getAggregatorID());
 
         //send back reply score
-        //kennelGatewayPublic.sendMessage(husky);
+        kennelGatewayPublic.sendMessage(reply);
     }
 
     //endregion

@@ -9,6 +9,8 @@ import mix.model.Husky;
 
 import javax.jms.Message;
 import javax.jms.MessageListener;
+import java.nio.charset.Charset;
+import java.util.Random;
 
 /**
  * Created by Gebruiker on 20-3-2019.
@@ -28,8 +30,12 @@ public class HuskySchoolToKennelGatewayPrivate {
     {
         this.controller = controller;
 
+        byte[] array = new byte[7]; // length is bounded by 7
+        new Random().nextBytes(array);
+        String generatedString = new String(array, Charset.forName("UTF-8"));
+
         sender = new MessageSenderGateway(senderGateway);
-        receiver = new MessageReceiverGateway(receiverGateway);
+        receiver = new MessageReceiverGateway(generatedString);
         serializer = new HuskySerializer();
 
         MessageListener listener = message -> {
@@ -37,6 +43,13 @@ public class HuskySchoolToKennelGatewayPrivate {
             onMessageArrived(husky);
         };
         receiver.setListener(listener);
+    }
+
+    public String getSenderGateway() {
+        return senderGateway;
+    }
+    public String getReceiverGateway() {
+        return receiverGateway;
     }
 
     public void sendMessage(Husky husky)
@@ -50,4 +63,8 @@ public class HuskySchoolToKennelGatewayPrivate {
     {
         controller.receiveHuskyFromClient(husky);
     }
+
+
+
+
 }

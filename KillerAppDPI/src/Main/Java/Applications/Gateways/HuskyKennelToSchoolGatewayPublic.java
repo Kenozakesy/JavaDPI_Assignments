@@ -4,7 +4,10 @@ import Applications.Controllers.KennelController;
 import mix.ChainCode.Recievers.MessageReceiverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
 import mix.ChainCode.Serializers.HuskySerializer;
-import mix.model.Husky;
+import mix.ChainCode.Serializers.HuskyTestReplySerializer;
+import mix.ChainCode.Serializers.HuskyTestRequestSerializer;
+import mix.model.HuskyTestReply;
+import mix.model.HuskyTestRequest;
 
 import javax.jms.Message;
 import javax.jms.MessageListener;
@@ -18,7 +21,8 @@ public class HuskyKennelToSchoolGatewayPublic {
 
     private MessageReceiverGateway receiver;
     private MessageSenderGateway sender;
-    private HuskySerializer serializer;
+    private HuskyTestRequestSerializer requestSerializer;
+    private HuskyTestReplySerializer testSerializer;
 
     private String senderGateway = "HuskyTestRequest";
     private String receiverGateway = "HuskyTestReply";
@@ -29,24 +33,25 @@ public class HuskyKennelToSchoolGatewayPublic {
 
         sender = new MessageSenderGateway(senderGateway);
         receiver = new MessageReceiverGateway(receiverGateway);
-        serializer = new HuskySerializer();
+        requestSerializer = new HuskyTestRequestSerializer();
+        testSerializer = new HuskyTestReplySerializer();
 
         MessageListener listener = message -> {
-            Husky husky = serializer.huskyFromString(message);
-            onMessageArrived(husky);
+            HuskyTestReply reply = testSerializer.huskyFromString(message);
+            onMessageArrived(reply);
         };
         receiver.setListener(listener);
     }
 
-    public void sendMessage(Husky husky)
+    public void sendMessage(HuskyTestRequest testRequest)
     {
-        String object = serializer.requestToString(husky);
+        String object = requestSerializer.requestToString(testRequest);
         Message msg = sender.createTextmessage(object);
         sender.sendMessage(msg);
     }
 
-    public void onMessageArrived(Husky husky)
+    public void onMessageArrived(HuskyTestReply reply)
     {
-        //controller.receiveHuskyFromClient(husky);
+        controller.receiveHuskyTestReply(reply);
     }
 }

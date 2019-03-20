@@ -6,6 +6,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import mix.Aggregator.Aggregator;
 import mix.model.Husky;
+import mix.model.HuskyTestReply;
+import mix.model.HuskyTestRequest;
 import mix.model.Kennel;
 
 import java.util.ArrayList;
@@ -46,7 +48,7 @@ public class KennelController {
     }
 
 
-    //region recieve_message
+    //region receive_message
 
     //receives
     public void receiveHuskyFromClient(Husky husky)
@@ -57,8 +59,38 @@ public class KennelController {
         Aggregator aggregator = new Aggregator(husky, 1);
         AggregatorList.add(aggregator);
 
+        HuskyTestRequest testRequest = new HuskyTestRequest(husky, aggregator.getAggregationID().getID());
+
         //here send to different schools
-        schoolGatewayPublic.sendMessage(husky); //moeten meerdere opvangen
+        schoolGatewayPublic.sendMessage(testRequest); //moeten meerdere opvangen
+    }
+
+    public void receiveHuskyTestReply(HuskyTestReply reply)
+    {
+        HuskyTestReply finalReply = null;
+        Aggregator aggr = null;
+        for (Aggregator A : AggregatorList)
+        {
+            if(A.getAggregationID().getID() == reply.getAggregatorID())
+            {
+                finalReply = A.addReply(reply);
+                if(finalReply != null)
+                {
+                    aggr = A;
+                }
+                break;
+            }
+        }
+
+        if(finalReply != null) { //zelf invulling geven
+            AggregatorList.remove(aggr);
+            broker.add(request, finalReply);
+            LoanReply loanReply = new LoanReply(finalReply.getInterest(), finalReply.getQuoteId());
+            JListLine jlistLine = broker.getRequestReply(request);
+            LoanRequest loanRequest = jlistLine.getLoanRequest();
+            loanClientGateway.sendLoanReply(loanRequest, loanReply);
+        }
+
     }
 
     //endregion
