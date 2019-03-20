@@ -2,58 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPrivate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPublic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/Aggregator/AggregationID.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/Aggregator/Aggregator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskySchool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskyScore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskyTestReply.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main/resources/HuskySchoolView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/GenerateScoreTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1424be98bee0a24225786a3dae16058adc6ceca0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f3eea40dfaf2cc4ed989440f515c7a8bea1570b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ac93725cde807b6ed508c2790899251a356345a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e31dc9510012738c24942d56db60a969fdeb8fa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f5bb5977036acb85774afa13667af908bb42915" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db0a88613f65b68a7cfd798c7204def4d8406872" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main/Java/Binding/HuskyClientViewModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Binding/HuskyClientView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources/Binding/HuskyClientView.fxml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_2.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientGateway.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToClientGateway.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelGateway.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main/resources/Binding/HuskyClientView.fxml" afterPath="$PROJECT_DIR$/src/Main/resources/HuskyClientView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI-ontwerp/DPI6 - ontwerp document.docx" afterPath="$PROJECT_DIR$/../DPI-ontwerp/DPI6 - ontwerp document.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/327d1fa7143a6c6f32056728331eea3dc0e7ec35" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/327d1fa7143a6c6f32056728331eea3dc0e7ec35" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f4061d9c1dca9e1db5c0ad5a1aeca03489fd9ac" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f4061d9c1dca9e1db5c0ad5a1aeca03489fd9ac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47f4492a22c84299a2704c809e37cc60f563db67" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47f4492a22c84299a2704c809e37cc60f563db67" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899d07924e857a7b44685ac69d43a0c0c60a5de8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899d07924e857a7b44685ac69d43a0c0c60a5de8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e311dda3325cb797c67d4b6ea96a0bf214b81e7" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e311dda3325cb797c67d4b6ea96a0bf214b81e7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a38dafcf6a6db08b443b6028c56f113a6acd84eb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a38dafcf6a6db08b443b6028c56f113a6acd84eb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c451f08fcea0209d1dc92227c3d50e41b479efa5" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c451f08fcea0209d1dc92227c3d50e41b479efa5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd423e03350fd276b3c7f984e02f6d981c0860c6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd423e03350fd276b3c7f984e02f6d981c0860c6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarIssues.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/3/03d9383ae40c32e548ba64ec39ef2812dcc679ad" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/0/3/03d9383ae40c32e548ba64ec39ef2812dcc679ad" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/3/5/3544ac62f632f3535b3cc1a845b9fd2e90cd6077" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/6/7/670e7f8ab464ad82aceb3945f3f2ce26ef334488" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/7/1/7109ba5f7f1cfdabc6b2534c86d8050d55fcc5c2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/8/b/8b30809a2d8dfe529af91ddc92258f226fbe45be" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/9/7/979aa639cb924cfc0e05499c38ae8bad5e3be553" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/9/7/979aa639cb924cfc0e05499c38ae8bad5e3be553" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/a/f/afd1bb37685cf8e7d204c63b25b58ee7b6b4350f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/b/7/b701cc6d5fde3377ebf92dbabd06f629beeadc39" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/c/b/cbb1816f6dd9d387624001f6e49a6d6a87b2322d" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/c/b/cbb1816f6dd9d387624001f6e49a6d6a87b2322d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KillerAppDPI.iml" afterPath="$PROJECT_DIR$/KillerAppDPI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/resources/Kennel.fxml" afterPath="$PROJECT_DIR$/src/Main/resources/Kennel.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HuskyClientView.fxml" afterPath="$PROJECT_DIR$/target/classes/HuskyClientView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Kennel.fxml" afterPath="$PROJECT_DIR$/target/classes/Kennel.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/Kennel.fxml" afterPath="$PROJECT_DIR$/target/classes/resources/Kennel.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+              <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,7 +158,7 @@
       <file leaf-file-name="HuskySchoolToKennelGatewayPublic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="886">
               <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1486,7 +1447,7 @@
       <workItem from="1552651973817" duration="2755000" />
       <workItem from="1552895461209" duration="74000" />
       <workItem from="1553067302292" duration="1936000" />
-      <workItem from="1553070159971" duration="12039000" />
+      <workItem from="1553070159971" duration="13983000" />
     </task>
     <servers />
   </component>
@@ -1523,11 +1484,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65790000" />
+    <option name="totallyTimeSpent" value="67734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1940,7 +1901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="886">
           <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1953,7 +1914,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

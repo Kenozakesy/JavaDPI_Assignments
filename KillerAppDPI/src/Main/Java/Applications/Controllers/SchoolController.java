@@ -56,6 +56,7 @@ public class SchoolController {
         HuskyScore score = school.calculatePotential(husky);
         System.out.println(score.getScore());
 
+        //give back score
         //HuskyTestReply reply = new HuskyTestReply(husky, score, kennelGatewayPrivate.)
 
 
