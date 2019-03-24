@@ -1,14 +1,19 @@
 package Applications.Controllers;
 
 import Applications.Gateways.HuskyKennelToClientGateway;
+import Applications.Gateways.HuskyKennelToSchoolGatewayPrivate;
 import Applications.Gateways.HuskyKennelToSchoolGatewayPublic;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import mix.Aggregator.Aggregator;
+import mix.model.Enums.TrainingStatus;
 import mix.model.Husky;
-import mix.model.HuskyTestReply;
-import mix.model.HuskyTestRequest;
+import mix.model.Replies.HuskyTestReply;
+import mix.model.Replies.HuskyTrainReply;
+import mix.model.Requests.HuskyTestRequest;
 import mix.model.Kennel;
+import mix.model.Requests.HuskyTrainingRequest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +36,7 @@ public class KennelController {
     private List<Aggregator> AggregatorList = new ArrayList<>();
 
     private HuskyKennelToSchoolGatewayPublic schoolGatewayPublic;
+    private HuskyKennelToSchoolGatewayPrivate schoolGatewayPrivate;
     private HuskyKennelToClientGateway clientGateway;
     private Kennel kennel;
 
@@ -38,23 +44,44 @@ public class KennelController {
         kennel = new Kennel();
         clientGateway = new HuskyKennelToClientGateway(this);
         schoolGatewayPublic = new HuskyKennelToSchoolGatewayPublic(this);
+        schoolGatewayPrivate = new HuskyKennelToSchoolGatewayPrivate(this);
         loadScreen();
     }
 
     public void loadScreen()
     {
-        listViewHuskies.getItems().clear();
-        listViewHuskies.getItems().addAll(kennel.getHuskyList());
+        Platform.runLater(() -> {
+            listViewHuskies.getItems().clear();
+            listViewHuskies.getItems().addAll(kennel.getHuskyList());
+        });
     }
 
+    //region UI_interaction
+
+    public void sendToTraining()
+    {
+        Husky husky = (Husky)listViewHuskies.getSelectionModel().getSelectedItem(); //this must be changed to husky request
+        if(husky != null && husky.getStatus() == TrainingStatus.UpForTraining) {
+
+            husky.setStatus(TrainingStatus.InTraining);
+            HuskyTrainingRequest request = new HuskyTrainingRequest(husky, husky.getSchoolAddress());
+            schoolGatewayPrivate.sendMessage(request);
+            loadScreen();
+        }
+        else
+        {
+            System.out.println("please select a dog first that can be trained");
+        }
+    }
+
+    //endregion
 
     //region receive_message
 
-    //receives
     public void receiveHuskyFromClient(Husky husky)
     {
         kennel.addHusky(husky);
-        loadScreen();
+        Platform.runLater(() -> loadScreen());
 
         Aggregator aggregator = new Aggregator(husky, 1);
         AggregatorList.add(aggregator);
@@ -82,20 +109,28 @@ public class KennelController {
             }
         }
 
-        //hier moet de daadwerkelijke husky verzonden worden set to check
-
-        //husky krijgt school toegewezen
-        //kennel drukt op versturen
-
         if(finalReply != null) { //zelf invulling geven
             AggregatorList.remove(aggr);
-            broker.add(request, finalReply);
-            LoanReply loanReply = new LoanReply(finalReply.getInterest(), finalReply.getQuoteId());
-            JListLine jlistLine = broker.getRequestReply(request);
-            LoanRequest loanRequest = jlistLine.getLoanRequest();
-            loanClientGateway.sendLoanReply(loanRequest, loanReply);
+
+            //husky terug krijgen
+            kennel.updateHuskyStatus(finalReply); //update status kan getrained worden
+
+            Platform.runLater(() -> loadScreen());
         }
 
+    }
+
+    public void receiveHuskyTrainReply(HuskyTrainReply reply)
+    {
+        Husky husky = kennel.updateHuskyToTrained(reply.getHusky());
+
+        //send husky back to client
+        clientGateway.sendMessage(husky);
+
+        //remove from kennel
+        kennel.removeHusky(husky);
+
+        loadScreen();
     }
 
     //endregion

@@ -9,4 +9,5 @@ public enum TrainingStatus {
     InTraining,
     InKennel,
     Rejected,
+    UpForTraining
 }

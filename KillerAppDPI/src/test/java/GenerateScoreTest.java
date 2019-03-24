@@ -14,8 +14,8 @@ public class GenerateScoreTest {
     public void scoreTest()
     {
         HuskySchool school = new HuskySchool();
-        HuskyScore score = school.calculatePotential(new Husky(56,66,78, "husk", new Date(4,4,4)));
-
+        HuskyScore score = school.calculatePotential();
+        //new Husky(56,66,78, "husk", new Date(4,4,4))
         System.out.println(score.getScore());
     }
 }

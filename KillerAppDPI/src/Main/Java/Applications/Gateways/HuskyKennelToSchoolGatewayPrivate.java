@@ -5,7 +5,11 @@ import Applications.Controllers.SchoolController;
 import mix.ChainCode.Recievers.MessageReceiverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
 import mix.ChainCode.Serializers.HuskySerializer;
+import mix.ChainCode.Serializers.HuskyTrainReplySerializer;
+import mix.ChainCode.Serializers.HuskyTrainRequestSerializer;
 import mix.model.Husky;
+import mix.model.Replies.HuskyTrainReply;
+import mix.model.Requests.HuskyTrainingRequest;
 
 import javax.jms.Message;
 import javax.jms.MessageListener;
@@ -19,35 +23,40 @@ public class HuskyKennelToSchoolGatewayPrivate {
 
     private MessageReceiverGateway receiver;
     private MessageSenderGateway sender;
-    private HuskySerializer serializer;
+    private HuskyTrainRequestSerializer requestSerializer;
+    private HuskyTrainReplySerializer replySerializer;
 
-    private String senderGateway = "HuskyTestRequest";
-    private String receiverGateway = "HuskyTestReply";
+    private String senderGateway = "test";
+    private String receiverGateway = "HuskyTrainReply";
 
     public HuskyKennelToSchoolGatewayPrivate(KennelController controller)
     {
         this.controller = controller;
 
-        sender = new MessageSenderGateway(senderGateway);
+        sender = new MessageSenderGateway(senderGateway); //kind of useless
         receiver = new MessageReceiverGateway(receiverGateway);
-        serializer = new HuskySerializer();
+        requestSerializer = new HuskyTrainRequestSerializer();
+        replySerializer = new HuskyTrainReplySerializer();
 
         MessageListener listener = message -> {
-            Husky husky = serializer.huskyFromString(message);
-            onMessageArrived(husky);
+            HuskyTrainReply reply = replySerializer.huskyFromString(message);
+            onMessageArrived(reply);
         };
         receiver.setListener(listener);
     }
 
-    public void sendMessage(Husky husky)
+    public synchronized void sendMessage(HuskyTrainingRequest request)
     {
-        String object = serializer.requestToString(husky);
+        //create new sender for ones
+        sender = new MessageSenderGateway(request.getSchoolAddress());
+
+        String object = requestSerializer.requestToString(request);
         Message msg = sender.createTextmessage(object);
         sender.sendMessage(msg);
     }
 
-    public void onMessageArrived(Husky husky)
+    public void onMessageArrived(HuskyTrainReply reply)
     {
-        controller.receiveHuskyFromClient(husky);
+        controller.receiveHuskyTrainReply(reply);
     }
 }

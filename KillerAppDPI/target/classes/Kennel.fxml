@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applications.Controllers.KennelController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applications.Controllers.KennelController">
    <children>
       <ListView fx:id="listViewHuskies" layoutX="14.0" layoutY="14.0" prefHeight="357.0" prefWidth="727.0" />
+      <Button layoutX="330.0" layoutY="387.0" mnemonicParsing="false" onAction="#sendToTraining" text="sendToTraining" />
    </children>
 </AnchorPane>

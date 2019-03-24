@@ -1,4 +1,6 @@
-package mix.model;
+package mix.model.Requests;
+
+import mix.model.Husky;
 
 public class HuskyTestRequest {
 

@@ -4,6 +4,7 @@ import javafx.beans.InvalidationListener;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
+import mix.model.Enums.TrainingStatus;
 
 
 import javax.security.auth.callback.Callback;
@@ -58,5 +59,17 @@ public class Owner {
 
     public List<Husky> getHuskyList() {
         return huskyList;
+    }
+
+    public void updateHuskyStatus(Husky husky)
+    {
+        for (Husky h: huskyList)
+        {
+            if(husky.equals(h))
+            {
+                h.setStatus(TrainingStatus.Trained);
+                break;
+            }
+        }
     }
 }

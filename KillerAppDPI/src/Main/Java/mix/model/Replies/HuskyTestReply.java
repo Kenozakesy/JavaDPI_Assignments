@@ -1,4 +1,7 @@
-package mix.model;
+package mix.model.Replies;
+
+import mix.model.Husky;
+import mix.model.HuskyScore;
 
 import java.util.Comparator;
 

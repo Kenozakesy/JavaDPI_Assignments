@@ -45,6 +45,6 @@ public class HuskyClientToKennelGateway {
 
     public void onMessageArrived(Husky husky)
     {
-        System.out.println(husky.getName());
+        controller.receiveTrainedHusky(husky);
     }
 }

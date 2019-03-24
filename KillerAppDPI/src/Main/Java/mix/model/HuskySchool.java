@@ -39,4 +39,14 @@ public class HuskySchool {
         HuskyScore score = new HuskyScore((int)random);
         return score;
     }
+
+    public void addHusky(Husky husky)
+    {
+        huskyList.add(husky);
+    }
+
+    public void removeHusky(Husky husky)
+    {
+        huskyList.remove(husky);
+    }
 }

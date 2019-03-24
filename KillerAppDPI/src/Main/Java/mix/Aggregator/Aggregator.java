@@ -1,7 +1,7 @@
 package mix.Aggregator;
 
 import mix.model.Husky;
-import mix.model.HuskyTestReply;
+import mix.model.Replies.HuskyTestReply;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

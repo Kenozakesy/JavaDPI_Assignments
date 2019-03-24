@@ -3,12 +3,10 @@ package Applications.Gateways;
 import Applications.Controllers.SchoolController;
 import mix.ChainCode.Recievers.MessageReceiverGateway;
 import mix.ChainCode.Recievers.MessageSenderGateway;
-import mix.ChainCode.Serializers.HuskySerializer;
 import mix.ChainCode.Serializers.HuskyTestReplySerializer;
 import mix.ChainCode.Serializers.HuskyTestRequestSerializer;
-import mix.model.Husky;
-import mix.model.HuskyTestReply;
-import mix.model.HuskyTestRequest;
+import mix.model.Replies.HuskyTestReply;
+import mix.model.Requests.HuskyTestRequest;
 
 import javax.jms.Message;
 import javax.jms.MessageListener;

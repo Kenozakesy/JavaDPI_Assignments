@@ -13,6 +13,7 @@ public class Husky {
     private String name;
     private Date birthDate;
     private TrainingStatus status;
+    private String schoolAddress;
 
     private double height;
     private double width;
@@ -64,6 +65,12 @@ public class Husky {
     public void setStatus(TrainingStatus status) {
         this.status = status;
     }
+    public String getSchoolAddress() {
+        return schoolAddress;
+    }
+    public void setSchoolAddress(String schoolAddress) {
+        this.schoolAddress = schoolAddress;
+    }
 
     private String Bark()
     {
@@ -92,7 +99,7 @@ public class Husky {
         if (getName() != null ? !getName().equals(husky.getName()) : husky.getName() != null) return false;
         if (getBirthDate() != null ? !getBirthDate().equals(husky.getBirthDate()) : husky.getBirthDate() != null)
             return false;
-        return getStatus() == husky.getStatus();
+        return true;
     }
 
     @Override

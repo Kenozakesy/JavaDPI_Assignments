@@ -1,9 +1,7 @@
 package mix.ChainCode.Serializers;
 
 import com.google.gson.Gson;
-import mix.model.Husky;
-import mix.model.HuskyTestReply;
-import mix.model.HuskyTestRequest;
+import mix.model.Requests.HuskyTestRequest;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
