@@ -2,21 +2,13 @@ package Applications.Controllers;
 
 import Applications.Gateways.HuskyClientToKennelGateway;
 import javafx.application.Platform;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.fxml.JavaFXBuilderFactory;
-import javafx.stage.Screen;
 import mix.model.Enums.TrainingStatus;
 import mix.model.Husky;
 import mix.model.Owner;
-
 import javafx.scene.control.*;
-
-import java.net.URL;
 import java.util.Date;
-import java.util.ResourceBundle;
+
 
 public class HuskyClientController {
     /**
@@ -26,6 +18,9 @@ public class HuskyClientController {
 
     @FXML
     private ListView listViewHuskies;
+
+    @FXML
+    private ListView listViewTrainedHuskies;
 
 
     //endregion
@@ -62,7 +57,9 @@ public class HuskyClientController {
     {
         Platform.runLater(() -> {
             listViewHuskies.getItems().clear();
-            listViewHuskies.getItems().addAll(owner.getHuskyList());
+            listViewHuskies.getItems().addAll(owner.getNotTrainedHuskyList());
+            listViewTrainedHuskies.getItems().clear();
+            listViewTrainedHuskies.getItems().addAll(owner.getTrainedHuskyList());
         });
     }
 

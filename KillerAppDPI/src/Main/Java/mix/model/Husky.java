@@ -93,9 +93,9 @@ public class Husky {
 
         Husky husky = (Husky) o;
 
-//        if (Double.compare(husky.getHeight(), getHeight()) != 0) return false;
-//        if (Double.compare(husky.getWidth(), getWidth()) != 0) return false;
-//        if (Double.compare(husky.getLength(), getLength()) != 0) return false;
+        if (Double.compare(husky.getHeight(), getHeight()) != 0) return false;
+        if (Double.compare(husky.getWidth(), getWidth()) != 0) return false;
+        if (Double.compare(husky.getLength(), getLength()) != 0) return false;
         if (getName() != null ? !getName().equals(husky.getName()) : husky.getName() != null) return false;
         if (getBirthDate() != null ? !getBirthDate().equals(husky.getBirthDate()) : husky.getBirthDate() != null)
             return false;

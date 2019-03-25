@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTrainReplySerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTrainRequestSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Replies/HuskyTrainReply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Requests/HuskyTrainingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DPI_opdracht1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KillerAppDPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KillerAppDPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPrivate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPublic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyKennelToSchoolGatewayPublic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPublic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/Aggregator/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/Aggregator/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTestReplySerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTestReplySerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTestRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/ChainCode/Serializers/HuskyTestRequestSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Enums/TrainingStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskySchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskySchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskyTestReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Replies/HuskyTestReply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/HuskyTestRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Requests/HuskyTestRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/resources/Kennel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/resources/Kennel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GenerateScoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GenerateScoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Kennel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kennel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/Kennel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/Kennel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/resources/HuskyClientView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/resources/HuskyClientView.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,22 +65,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="442">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/HuskySchool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="578">
               <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/ActiveMQMessageConsumer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="2499">
               <caret line="148" column="74" selection-start-line="148" selection-start-column="74" selection-end-line="148" selection-end-column="74" />
             </state>
           </provider>
@@ -138,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="68">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -150,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="199">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,17 +127,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+            <state>
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="method#getNotTrainedHuskyList#0;class#Owner#0" />
+                <element signature="method#getTrainedHuskyList#0;class#Owner#0" />
+                <element signature="method#updateHuskyStatus#0;class#Owner#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -193,7 +170,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="697">
               <caret line="55" selection-start-line="55" selection-end-line="63" selection-end-column="20" />
               <folding>
                 <element signature="e#635#636#0" expanded="true" />
@@ -261,12 +238,12 @@
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/SchoolController.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java" />
-        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_3.java" />
         <option value="$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_2.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java" />
+        <option value="$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java" />
       </list>
     </option>
   </component>
@@ -293,6 +270,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,8 +437,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,7 +453,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553444483689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553541281116" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DPI_opdracht1" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -684,17 +661,19 @@
       <workItem from="1553247899505" duration="9832000" />
       <workItem from="1553335704619" duration="1287000" />
       <workItem from="1553416311551" duration="3309000" />
-      <workItem from="1553428808206" duration="7570000" />
+      <workItem from="1553428808206" duration="8174000" />
+      <workItem from="1553534721300" duration="1764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35317000" />
+    <option name="totallyTimeSpent" value="37685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2457356" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2457356" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -703,7 +682,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2990249" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2990249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -754,7 +733,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java</url>
-          <line>72</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -972,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/KennelClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -986,54 +958,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="442">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/ActiveMQMessageConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="148" column="74" selection-start-line="148" selection-start-column="74" selection-end-line="148" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/KennelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/HuskySchool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="578">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1043,24 +988,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/ActiveMQMessageConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="55" selection-start-line="55" selection-end-line="63" selection-end-column="20" />
-          <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2499">
+          <caret line="148" column="74" selection-start-line="148" selection-start-column="74" selection-end-line="148" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/HuskyClient_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1072,10 +1012,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Kennel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="55" selection-start-line="55" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/ApplicationStartUp/Husky_School_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/Applications/Controllers/HuskyClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="method#getNotTrainedHuskyList#0;class#Owner#0" />
+            <element signature="method#getTrainedHuskyList#0;class#Owner#0" />
+            <element signature="method#updateHuskyStatus#0;class#Owner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Java/mix/model/Husky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
         </state>
       </provider>
     </entry>

@@ -31,11 +31,12 @@ public class Owner {
 
         //this normally comes from a database
 
-
         huskyList = new ArrayList<>();
         huskyList.add(new Husky(55,20, 120, "Husko", new Date(2017,8,23)));
         huskyList.add(new Husky(51,18, 113, "Husshi", new Date(2018,2,24)));
         huskyList.add(new Husky(58,21, 125, "Sushi", new Date(2017,6,20)));
+        huskyList.add(new Husky(34,19, 119, "dogo", new Date(2016,2,14)));
+        huskyList.add(new Husky(44,23, 129, "Doge", new Date(2016,5,13)));
     }
 
     public String getFirstName() {
@@ -59,6 +60,30 @@ public class Owner {
 
     public List<Husky> getHuskyList() {
         return huskyList;
+    }
+
+    public List<Husky> getNotTrainedHuskyList() {
+        List<Husky> huskies = new ArrayList();
+        for (Husky h: huskyList) {
+            if(h.getStatus() != TrainingStatus.Trained)
+            {
+                huskies.add(h);
+            }
+        }
+
+        return huskies;
+    }
+
+    public List<Husky> getTrainedHuskyList() {
+        List<Husky> huskies = new ArrayList();
+        for (Husky h: huskyList) {
+            if(h.getStatus() == TrainingStatus.Trained)
+            {
+                huskies.add(h);
+            }
+        }
+
+        return huskies;
     }
 
     public void updateHuskyStatus(Husky husky)
