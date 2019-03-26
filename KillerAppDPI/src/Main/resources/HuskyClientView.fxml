@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 
@@ -9,5 +10,7 @@
         <ListView fx:id="listViewHuskies" layoutX="15.0" layoutY="29.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="135.0" prefWidth="535.0" />
         <Button fx:id="btnSendTraining" layoutX="233.0" layoutY="337.0" mnemonicParsing="false" onAction="#sendDog" text="SendToTraining" />
       <ListView fx:id="listViewTrainedHuskies" layoutX="15.0" layoutY="194.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="135.0" prefWidth="535.0" />
+      <Label layoutX="15.0" layoutY="6.0" text="Not trained" />
+      <Label layoutX="15.0" layoutY="171.0" text="Trained" />
     </children>
 </AnchorPane>
