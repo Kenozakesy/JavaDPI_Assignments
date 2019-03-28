@@ -1,0 +1,40 @@
+/* AUTOMATICALLY GENERATED ON Thu Mar 28 11:13:11 CET 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/:/user/*";
+  permission javax.security.jacc.WebUserDataPermission "/user/*";
+  permission javax.security.jacc.WebUserDataPermission "/:/user/*";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "javax.ws.rs.core.Application", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Service.RestApplication", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "HomeController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "JaxController", "**";
+};
+
+grant      principal org.glassfish.security.common.Group "admin" {
+  permission javax.security.jacc.WebRoleRefPermission "default", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "javax.ws.rs.core.Application", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "HomeController", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "Service.RestApplication", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "JaxController", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "admin";
+  permission javax.security.jacc.WebRoleRefPermission "", "admin";
+};
+
+grant      principal org.glassfish.security.common.Group "users" {
+  permission javax.security.jacc.WebResourcePermission "/user/*";
+  permission javax.security.jacc.WebRoleRefPermission "HomeController", "users";
+  permission javax.security.jacc.WebRoleRefPermission "Service.RestApplication", "users";
+  permission javax.security.jacc.WebRoleRefPermission "JaxController", "users";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "users";
+  permission javax.security.jacc.WebRoleRefPermission "", "users";
+  permission javax.security.jacc.WebRoleRefPermission "default", "users";
+  permission javax.security.jacc.WebRoleRefPermission "javax.ws.rs.core.Application", "users";
+};
+

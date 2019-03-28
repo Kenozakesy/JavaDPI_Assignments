@@ -1,8 +1,6 @@
 
 R
 "src/Main/Java/mix/model/Owner.java,d\d\dd423e03350fd276b3c7f984e02f6d981c0860c6
-k
-;src/Main/Java/Applications/Gateways/HuskyKennelGateway.java,8\9\899d07924e857a7b44685ac69d43a0c0c60a5de8
 R
 "src/Main/Java/mix/model/Husky.java,a\6\a6da1f91504cf3e601ed04c49baa8251ae67f201
 a
@@ -21,17 +19,21 @@ N
 src/Main/resources/Kennel.fxml,7\f\7f2cf622537f070527a65dae300b1ccbb2ab9a31
 o
 ?src/Main/Java/Applications/ApplicationStartUp/KennelClient.java,3\f\3f4061d9c1dca9e1db5c0ad5a1aeca03489fd9ac
-k
-;src/Main/Java/Applications/Gateways/HuskyClientGateway.java,3\2\327d1fa7143a6c6f32056728331eea3dc0e7ec35
 l
 <src/Main/Java/Applications/Controllers/KennelController.java,9\e\9e311dda3325cb797c67d4b6ea96a0bf214b81e7
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-_
-/src/Main/Java/Binding/HuskyClientViewModel.java,6\5\65bc3f0a60555abea5abc3dc613a9d27faf72202
-Z
-*src/Main/Java/Binding/HuskyClientView.java,b\1\b1b7d7df5821cc217be872edc0582935dc13f896
 W
 'src/Main/resources/HuskyClientView.fxml,b\a\baa4aa55f16b48e97a123a70f0b7eb7d8f30bff2
 o
 ?src/Main/Java/mix/ChainCode/Recievers/MessageSenderGateway.java,f\8\f84304ee40cc7dd96acbf7527d2bfebe69d5cec0
+z
+Jsrc/Main/Java/Applications/Gateways/HuskySchoolToKennelGatewayPrivate.java,c\2\c2f2b4d402320fd62417354ad5b79b2d4dd30a61
+s
+Csrc/Main/Java/Applications/Gateways/HuskyClientToKennelGateway.java,4\6\4664e8ba9d6b1ce483089705bf36b143cb9ea685
+o
+?src/Main/Java/Applications/ApplicationStartUp/Husky_School.java,4\b\4bdaaf2c9bdf673e327ce3341e53272103ff6994
+q
+Asrc/Main/Java/Applications/ApplicationStartUp/Husky_School_2.java,9\b\9bc4ac10abcac45eb0b9053c9ab263a68c204d6c
+s
+Csrc/Main/Java/Applications/Gateways/HuskyKennelToClientGateway.java,8\d\8ddfc1f9b57cb51b7c142c5895a3da2dd85b322d

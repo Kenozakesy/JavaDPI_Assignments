@@ -1,0 +1,8 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÒĞµÖ
+Psquid:UselessImportCheck",Remove this unused import 'mix.model.Husky'.(¥§ğæ
+jsquid:UselessImportCheck"FRemove this unused import 'Applications.Controllers.KennelController'.(Ú¦†
+usquid:UselessImportCheck"QRemove this unused import 'mix.ChainCode.Serializers.HuskyTestRequestSerializer'.(ÉôáØ
+dsquid:UselessImportCheck"@Remove this unused import 'mix.model.Requests.HuskyTestRequest'.(ÍÉø‘
+osquid:UselessImportCheck"FRemove this unused import 'mix.ChainCode.Serializers.HuskySerializer'.(ùäñşÿÿÿÿÿ
+Wsquid:S1481+"4Remove this unused "generatedString" local variable.(²õ¡ƒşÿÿÿÿ8¤Øàñ›-

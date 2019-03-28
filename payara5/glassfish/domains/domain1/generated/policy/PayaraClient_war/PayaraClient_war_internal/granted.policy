@@ -1,0 +1,18 @@
+/* AUTOMATICALLY GENERATED ON Thu Mar 28 11:13:11 CET 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "PersonService", "GetUser,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "PersonService", "GetUsers,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PersonRepository", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PersonService", "createUser,Local,Classes.person";
+  permission javax.security.jacc.EJBMethodPermission "PersonRepository", "addperson,Local,Classes.person";
+  permission javax.security.jacc.EJBMethodPermission "PersonService", "GetUsernames,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PersonRepository", "getByID,Local,java.lang.Long";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "PersonRepository", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "PersonService", "**";
+};
+

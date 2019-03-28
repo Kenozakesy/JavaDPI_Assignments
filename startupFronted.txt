@@ -1,0 +1,6 @@
+instal
+-xamp
+-mysql
+-configure a startup project
+-use vue.js probably
+-goal end of friday have a front end that can communicate with the back-end

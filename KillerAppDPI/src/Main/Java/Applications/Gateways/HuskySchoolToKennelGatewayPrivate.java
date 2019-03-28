@@ -17,6 +17,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import java.nio.charset.Charset;
 import java.util.Random;
+import java.util.UUID;
 
 /**
  * Created by Gebruiker on 20-3-2019.
@@ -40,10 +41,11 @@ public class HuskySchoolToKennelGatewayPrivate {
         byte[] array = new byte[7]; // length is bounded by 7
         new Random().nextBytes(array);
         String generatedString = new String(array, Charset.forName("UTF-8"));
-        this.receiverGateway = generatedString;
+        String rt = UUID.randomUUID().toString();
+        this.receiverGateway = rt;
 
         sender = new MessageSenderGateway(senderGateway);
-        receiver = new MessageReceiverGateway(generatedString);
+        receiver = new MessageReceiverGateway(rt);
         replySerializer = new HuskyTrainReplySerializer();
         requestSerializer = new HuskyTrainRequestSerializer();
 

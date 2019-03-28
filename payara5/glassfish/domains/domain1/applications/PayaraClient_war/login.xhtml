@@ -1,0 +1,38 @@
+<!--<%&#45;&#45;-->
+  <!--Created by IntelliJ IDEA.-->
+  <!--User: Gebruiker-->
+  <!--Date: 18-3-2019-->
+  <!--Time: 09:25-->
+  <!--To change this template use File | Settings | File Templates.-->
+<!--&#45;&#45;%>-->
+<!--<%@ taglib uri="http://java.sun.com/jsf/html" prefix="h" %>-->
+<!--<%@ taglib uri="http://java.sun.com/jsf/core" prefix="f" %>-->
+<!--<%@ page contentType="text/html;charset=UTF-8" language="java" %>-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<head>
+    <title>Login</title>
+</head>
+<h:head>
+    <title>login</title>
+</h:head>
+<h:body>
+
+    <h:form>
+        <h3>Please Sign In</h3>
+        <h:panelGrid columns="2">
+            <h:outputLabel for="email">E-Mail:</h:outputLabel>
+            <h:inputText id="email" value="#{loginView.email}" required="true" requiredMessage="Please enter your e-mail address"></h:inputText>
+
+            <h:outputLabel for="password">Password:</h:outputLabel>
+            <h:inputSecret id="password" value="#{loginView.password}" required="true" requiredMessage="Please enter password"></h:inputSecret>
+
+            <h:commandButton action="#{loginView.login}" value="Login"></h:commandButton>
+        </h:panelGrid>
+    </h:form>
+
+    <br/><br/>
+    <h:link value="Create new account" outcome="register" />
+
+</h:body>
+</html>
